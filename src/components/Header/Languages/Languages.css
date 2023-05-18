@@ -1,5 +1,10 @@
 .languages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   gap: 10px;
+  width: 40px;
 }
 
 #change-language {
@@ -7,13 +12,19 @@
   font-weight: lighter;
 }
 
-span {
-  width: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .flagLanguage {
   width: 18px;
+  transition: 0.3s;
+}
+
+.flagLanguage:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+  .languages {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
 }

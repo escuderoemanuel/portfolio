@@ -3,6 +3,7 @@ import './Header.css';
 import Logo from './Logo/Logo.jsx';
 import Navbar from './Navbar/Navbar.jsx';
 import Languages from './Languages/Languages';
+
 const Header = () => {
   window.addEventListener('scroll', function () {
     let header = document.getElementById('header');
@@ -17,9 +18,9 @@ const Header = () => {
 
   return (
     <div className='header'>
-      <Logo></Logo>
+      {/* <Logo></Logo> */}
       <Navbar></Navbar>
-      <Languages></Languages>
+      {/* <Languages></Languages> */}
     </div>
   );
 };

@@ -1,8 +1,10 @@
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  align-items: start;
   text-align: center;
+  padding: 1rem 2rem;
+  position: absolute;
 }
 
 @media screen and (min-width: 768px) {
@@ -10,13 +12,15 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 8%;
-    padding: 1.5rem 9%;
+    padding: 1.5rem 10%;
     background-color: transparent;
+
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-around;
+
     z-index: 100;
     transition: background-color 0.3s;
   }
