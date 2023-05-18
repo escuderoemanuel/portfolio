@@ -4,10 +4,15 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: 'Poppins', 'Tilt Warp', 'Palanquin Dark', 'Secular One',
-    sans-serif;
+
   text-align: center;
-  background-color: var(--bg-primary);
   color: var(--text-primary);
   text-align: center;
+}
+
+html,
+body {
+  background-color: var(--bg-primary);
+  font-family: 'Poppins', 'Tilt Warp', 'Palanquin Dark', 'Secular One',
+    sans-serif;
 }

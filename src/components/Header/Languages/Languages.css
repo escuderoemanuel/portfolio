@@ -1,0 +1,19 @@
+.languages {
+  gap: 10px;
+}
+
+#change-language {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+span {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flagLanguage {
+  width: 18px;
+}
