@@ -3,6 +3,7 @@ import './Header.css';
 import Logo from './Logo/Logo.jsx';
 import Navbar from './Navbar/Navbar.jsx';
 import Languages from './Languages/Languages';
+import Toggle from './Toggle/Toggle';
 
 const Header = () => {
   window.addEventListener('scroll', function () {
@@ -18,9 +19,14 @@ const Header = () => {
 
   return (
     <div className='header'>
-      {/* <Logo></Logo> */}
-      <Navbar></Navbar>
-      {/* <Languages></Languages> */}
+      <div className='header-principal'>
+        <Logo></Logo>
+        <Toggle></Toggle>
+      </div>
+      <div className='header-secondary'>
+        <Navbar></Navbar>
+        <Languages></Languages>
+      </div>
     </div>
   );
 };

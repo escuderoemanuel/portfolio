@@ -1,0 +1,78 @@
+/* TOGGLE */
+.toggle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: end;
+  text-align: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+/* Estado Original */
+.line:nth-child(1) {
+  width: 36px;
+  height: 3px;
+  border-radius: 1rem;
+  background-color: var(--text-primary);
+}
+
+.line:nth-child(2) {
+  width: 30px;
+  height: 3px;
+  border-radius: 1rem;
+  background-color: var(--text-primary);
+}
+
+.line:nth-child(3) {
+  width: 25px;
+  height: 3px;
+  border-radius: 1rem;
+  background-color: var(--text-primary);
+}
+
+/* Estado Hover */
+/* .toggle:not(.open):hover span:nth-child(1) {
+  transform: rotate(-3deg) scaleY(1.1);
+}
+.toggle:not(.open):hover span:nth-child(2) {
+  transform: rotate(3deg) scaleY(1.1);
+}
+.toggle:not(.open):hover span:nth-child(3) {
+  transform: rotate(-4deg) scaleY(1.1);
+}
+.toggle.open span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 13px;
+}
+.toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+.toggle.open span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 13px;
+}
+
+ */
+.toggle:not(.open):hover span:nth-child(1) {
+  transform: scaleX(0.8);
+}
+.toggle:not(.open):hover span:nth-child(2) {
+  transform: scaleX(0.5);
+}
+.toggle:not(.open):hover span:nth-child(3) {
+  transform: scaleX(0.8);
+}
+.toggle.open span:nth-child(1) {
+  top: 13px;
+}
+.toggle.open span:nth-child(2) {
+  top: 13px;
+}
+.toggle.open span:nth-child(3) {
+  top: 13px;
+}

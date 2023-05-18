@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  width: 40px;
+  width: 80px;
+  position: absolute;
 }
 
 #change-language {
