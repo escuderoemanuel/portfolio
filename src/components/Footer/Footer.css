@@ -1,0 +1,21 @@
+.footer {
+  font-size: 0.9em;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContainer {
+  height: 100%;
+  width: 90%;
+  padding: 2rem 0;
+  border-top: 1px solid var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

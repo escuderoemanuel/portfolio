@@ -1,0 +1,141 @@
+/* General */
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  margin: 1rem;
+  border-radius: 2rem;
+}
+
+.not-rounded {
+  border-radius: 0.5rem;
+}
+
+/* Primary Btn */
+.primary {
+  color: var(--text-primary);
+  background: linear-gradient(to right, var(--text-secondary), var(--focus));
+  border: 3px solid transparent;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.primary:hover {
+  color: var(--text-primary);
+  border: 3px solid var(--focus);
+}
+.primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(to right, var(--bg-secondary), var(--bg-primary));
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.primary:hover::before {
+  width: 100%;
+}
+
+/* Secondary Btn */
+.secondary {
+  color: var(--text-primary);
+  background: var(--color-dark);
+  border: 3px solid var(--text-secondary);
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.secondary:hover {
+  color: var(--text-primary);
+}
+.secondary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--text-secondary);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.secondary:hover::before {
+  width: 100%;
+}
+
+/* Tertiary */
+.tertiary {
+  color: var(--text-secondary);
+  background: var(--color-dark);
+  border: 3px solid var(--text-secondary);
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.tertiary:hover {
+  color: var(--text-primary);
+}
+.tertiary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--text-secondary);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.tertiary:hover::before {
+  width: 100%;
+}
+
+/* Size */
+.sm {
+  width: 120px;
+  height: 40px;
+  padding: 0.2rem;
+  font-weight: light;
+  font-size: 0.9em;
+}
+
+.md {
+  width: 150px;
+  height: 50px;
+  padding: 0.2rem 0.5rem;
+  font-size: 1em;
+}
+
+.lg {
+  width: 180px;
+  height: 60px;
+  padding: 0.2rem 0.5rem;
+  font-size: 1.1em;
+}
