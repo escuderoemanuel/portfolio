@@ -24,8 +24,8 @@ const Header = () => {
         <Toggle></Toggle>
       </div>
       <div className='header-secondary'>
-        <Navbar></Navbar>
-        <Languages></Languages>
+        {/* <Navbar></Navbar> */}
+        {/* <Languages></Languages> */}
       </div>
     </div>
   );

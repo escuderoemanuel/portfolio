@@ -6,6 +6,7 @@
   --color-muted-dark: rgb(33, 38, 45);
 
   --bg-primary: #0f172a;
+  --bg-primary-tr: rgba(15, 23, 42, 0.9);
   --bg-secondary: #1a242f;
   --bg-tertiary: #252b31;
   --bg-focus: rgb(12, 45, 107);
@@ -15,6 +16,7 @@
 
   --text-primary: #ededed;
   --text-secondary: #00abf0;
+  --text-secondary-tr: rgba(0, 171, 240, 0.5);
   --text-transparent: rgba(0, 171, 240, 0.2);
   --text-transparent-dark: rgba(0, 171, 240, 0.1);
   --text-bright: rgb(227, 233, 240);

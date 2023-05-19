@@ -35,44 +35,21 @@
   background-color: var(--text-primary);
 }
 
-/* Estado Hover */
-/* .toggle:not(.open):hover span:nth-child(1) {
-  transform: rotate(-3deg) scaleY(1.1);
-}
-.toggle:not(.open):hover span:nth-child(2) {
-  transform: rotate(3deg) scaleY(1.1);
-}
-.toggle:not(.open):hover span:nth-child(3) {
-  transform: rotate(-4deg) scaleY(1.1);
-}
-.toggle.open span:nth-child(1) {
-  transform: rotate(45deg);
-  top: 13px;
-}
-.toggle.open span:nth-child(2) {
-  opacity: 0;
-}
-.toggle.open span:nth-child(3) {
-  transform: rotate(-45deg);
-  top: 13px;
-}
-
- */
-.toggle:not(.open):hover span:nth-child(1) {
+.toggle:hover span:nth-child(1) {
   transform: scaleX(0.8);
 }
-.toggle:not(.open):hover span:nth-child(2) {
+.toggle:hover span:nth-child(2) {
   transform: scaleX(0.5);
 }
-.toggle:not(.open):hover span:nth-child(3) {
+.toggle:hover span:nth-child(3) {
   transform: scaleX(0.8);
 }
-.toggle.open span:nth-child(1) {
+.toggle:active span:nth-child(1) {
   top: 13px;
 }
-.toggle.open span:nth-child(2) {
+.toggle:active span:nth-child(2) {
   top: 13px;
 }
-.toggle.open span:nth-child(3) {
+.toggle:active span:nth-child(3) {
   top: 13px;
 }

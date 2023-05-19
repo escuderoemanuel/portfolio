@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import './Toggle.css';
 
 const Toggle = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleClick = () => {
-    setIsOpen(!isOpen);
-  };
+  /* const btn = document.getElementById('toggle');
+  const lines = document.getElementsByClassName('line');
+  btn.addEventListener('click', () => {
+    lines.classList.add('otra');
+  }); */
 
   return (
-    <div className={`toggle ${isOpen ? 'open' : ''}`} onClick={handleClick}>
+    <div className='toggle' id='toggle'>
       <span className='line'></span>
       <span className='line'></span>
       <span className='line'></span>

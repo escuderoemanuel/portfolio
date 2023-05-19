@@ -1,0 +1,154 @@
+.portfolio {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+  margin-bottom: 8rem;
+}
+
+.titlePortfolio {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  background-image: linear-gradient(to left, var(--text-main), var(--focus));
+  background-clip: text;
+  -webkit-background-clip: text; /* Para navegadores webkit */
+  color: transparent;
+  margin-bottom: 3rem;
+}
+
+.titlePortfolio::after {
+  content: '';
+  display: block;
+  position: relative;
+  bottom: -px; /* Ajusta la posición vertical del subrayado */
+  left: 0;
+  width: 16%; /* Ajusta la longitud del subrayado */
+  border-bottom: 5px solid var(--text-main); /* Ajusta el estilo y color del subrayado */
+}
+
+/* Card Portfolio */
+.cardPortfolio {
+  width: 350px;
+  height: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--text-main-transparent-dark);
+  border-bottom: 5px solid var(--text-main); /* Ajusta el estilo y color del subrayado */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.9rem;
+}
+
+.cardPortfolio:hover {
+  background-color: var(--selection-dark);
+  transition: all 1s;
+}
+
+.cardPortfolio::after {
+  content: '';
+  display: block;
+  position: relative;
+  bottom: 0px; /* Ajusta la posición vertical del subrayado */
+  left: 0;
+  width: 100%; /* Ajusta la longitud del subrayado */
+}
+
+/* IMG Card */
+.cardPortfolio img {
+  width: 95%;
+  border-radius: 8px;
+  border: none;
+}
+
+/* cardPortfolioContainer */
+.cardPortfolioContainer {
+  height: 100vh;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+
+.cardPortfolioContainer h3 {
+  font-size: 2.5rem;
+  color: var(--text-main);
+}
+
+.cardPortfolioContainer h5 {
+  font-size: 1.5rem;
+}
+.cardPortfolioContainer p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.cardPortfolioContainer:hover {
+  transition: all 500ms;
+}
+
+/* BTN */
+
+@keyframes flotar {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+
+/* Estado Inicial BTN REPO */
+.btn-box .btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 12rem;
+  height: 100%;
+  background-color: var(--bg-secondary);
+  border: 0.2rem solid var(--text-main-transparent);
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  font-weight: light;
+  letter-spacing: 0.1rem;
+  color: var(--text-bright);
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+/* Hover Text BTN REPO */
+.btn-box .btn:hover {
+  color: var(--bg-secondary);
+}
+
+/* Animación BG Color BTN REPO */
+.btn-box .btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--text-main);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+/* Animación Der a Izq */
+.btn-box .btn:hover::before {
+  width: 100%;
+}

@@ -1,0 +1,96 @@
+/* General */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: transparent;
+  padding: 1rem;
+  position: relative;
+  z-index: 100;
+}
+
+/* Encabezado */
+.title-container {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  text-align: end;
+  padding: 1rem;
+}
+
+.title-home,
+.title-home p,
+.title-home h1 {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  justify-content: end;
+  align-items: end;
+}
+
+.title-home p {
+  font-size: 1.8em;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.title-home h1 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.subtitle-home {
+  margin-top: 0.5rem;
+  font-size: 1.6em;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  text-align: end;
+  color: var(--text-secondary);
+}
+
+/* Párrafo description */
+.description {
+  font-size: 0.9em;
+  font-weight: 300;
+  padding: 1rem 1.5rem;
+  /* background-color: red; */
+  text-align: start;
+}
+
+/* Social Icons */
+.divSocial {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.iSocial {
+  width: 52px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--text-secondary);
+  border: 2px solid var(--color-muted);
+  color: var(--text-secondary);
+  color: var(--color-muted);
+  transition: all 0.4s;
+  margin-bottom: 1.5rem;
+}
+
+.iSocial:hover {
+  transform: scale(0.95) translateY(-4px);
+  color: var(--text-primary);
+  border: 2px solid var(--text-secondary);
+  background-color: var(--text-secondary);
+}
+
+/* Card Flotante */
