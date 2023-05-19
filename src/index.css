@@ -1,6 +1,7 @@
 :root {
   --color-white: rgb(201, 209, 217);
   --color-bright: rgb(227, 233, 240);
+  --color-bright-tr: rgba(227, 233, 240, 0.7);
   --color-muted: rgb(139, 148, 158);
   --color-dark: rgb(33, 37, 44);
   --color-muted-dark: rgb(33, 38, 45);
@@ -20,6 +21,7 @@
   --text-transparent: rgba(0, 171, 240, 0.2);
   --text-transparent-dark: rgba(0, 171, 240, 0.1);
   --text-bright: rgb(227, 233, 240);
+  --text-bright-tr: rgba(227, 233, 240, 0.5);
   --text-muted: rgb(139, 148, 158);
 
   --links: #0ea5e9;

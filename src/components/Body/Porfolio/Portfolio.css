@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: transparent;
   padding: 1rem;
   position: relative;
   z-index: 100;
@@ -36,23 +35,23 @@
 
 /* Card Portfolio */
 .cardPortfolio {
-  width: 300px;
-  height: 500px; /* CAMBIAR */
-  border-radius: 8px;
-  overflow: hidden;
   background: linear-gradient(
     to left,
     var(--text-transparent),
     var(--text-transparent-dark)
   );
   border-bottom: 5px solid var(--text-secondary);
+  box-shadow: 0 0 2px 1px var(--text-secondary-tr);
+  border-radius: 8px;
+  width: 300px;
+  height: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-align: end;
   overflow: hidden;
-  box-shadow: 0 0 2px 0px var(--text-bright);
+  margin: 1rem 0.5rem;
 }
 /* IMG Card */
 .cardPortfolio img {
@@ -65,7 +64,7 @@
 
 /* cardPortfolioContainer */
 .cardPortfolioDescription {
-  padding: 0.2rem;
+  padding: 0.5rem;
   height: 170px;
   display: flex;
   flex-direction: column;
@@ -105,10 +104,11 @@
 
 .button-card-portfolio {
   background-color: var(--bg-secondary);
-  border: 2px solid var(--text-secondary);
+  border: 2px solid var(--text-secondary-tr);
+  position: relative;
   width: 110px;
   height: 40px;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -116,11 +116,14 @@
   font-size: 1.2em;
   border-radius: 25px;
   padding: 0.5rem;
+  z-index: 1;
+  overflow: hidden;
 }
 
-.button-card-portfolio:hover {
-  border: 2px solid var(--text-bright);
-  color: var(--text-secondary);
+.button-card-portfolio:hover p,
+.button-card-portfolio:hover i {
+  font-weight: 400;
+  color: var(--text-bright);
 }
 
 /* Animación BG Color BTN REPO */
@@ -128,12 +131,12 @@
   content: '';
   position: absolute;
   top: 0;
-  left: 0;
-  width: 0;
+  left: 0%;
+  width: 0%;
   height: 100%;
-  background-color: var(--text-secondary);
+  background: linear-gradient(to right, var(--text-secondary-tr), var(--focus));
   z-index: -1;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 /* Animación Der a Izq */
@@ -148,4 +151,47 @@
 
 .btn-content i {
   color: var(--text-secondary);
+}
+
+@media (min-width: 768px) {
+  /* Portfolio Content */
+  .portfolio-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Portfolio Content */
+  .portfolio-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+
+  /* Card Portfolio */
+  .cardPortfolio {
+    width: 300px;
+    height: 550px;
+  }
+
+  /* IMG Card */
+  .cardPortfolio img {
+    top: -4px;
+  }
+
+  .cardPortfolioDescription h3 {
+    margin-bottom: 0.7rem;
+  }
+
+  .cardPortfolioDescription h5 {
+    margin-bottom: 0.5rem;
+  }
 }
