@@ -11,8 +11,11 @@ const Btn = ({ className, iconRight, iconLeft, text }) => {
         ${className} `
           : 'btn'
       }>
-      {iconLeft} {text}
-      {iconRight}
+      <div className='btn-content'>
+        <i>{iconLeft}</i>
+        <p>{text}</p>
+        <i>{iconRight}</i>
+      </div>
     </button>
   );
 };

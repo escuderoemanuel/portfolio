@@ -1,5 +1,6 @@
 import React from 'react';
 import './DataFile.css';
+import Btn from '../../../Global/Btn/Btn';
 
 const DataFile = () => {
   return (
@@ -35,11 +36,12 @@ const DataFile = () => {
         </div>
 
         <div className='footer-card'>
-          <div className='btn-box'>
-            <a href='#' className='btn'>
-              View CV <i id='btn-down' class='bx bx-chevrons-down'></i>
-            </a>
-          </div>
+          <Btn
+            className={'primary not-rounded lg'}
+            text={'View CV'}
+            iconRight={<i id='btn-down' class='bx bx-chevrons-down'></i>}>
+            {' '}
+          </Btn>
         </div>
       </div>
     </aside>

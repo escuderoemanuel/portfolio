@@ -48,13 +48,16 @@
   text-align: justify;
   color: var(--text-muted);
 }
-
+/* Btn dentro del footer */
 .footer-card {
   height: 100%;
 }
 
-.float-window .bx {
-}
+/* .footer-card .btn {
+  font-size: 1.2rem;
+  text-align: justify;
+  background-color: red;
+} */
 
 @keyframes flotar {
   0% {
@@ -117,4 +120,3 @@
 .float-window #btn-down {
   font-size: 2rem;
 }
-

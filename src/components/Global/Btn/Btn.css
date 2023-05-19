@@ -5,9 +5,36 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  gap: 5px;
-  margin: 1rem;
+  margin: 1.2rem;
   border-radius: 2rem;
+  padding: 0;
+}
+
+.btn-content {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+}
+
+.btn p {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  letter-spacing: -1px;
+  word-spacing: -5px;
+}
+
+.btn i {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
 }
 
 .not-rounded {
@@ -18,7 +45,7 @@
 .primary {
   color: var(--text-primary);
   background: linear-gradient(to right, var(--text-secondary), var(--focus));
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   position: relative;
   display: inline-flex;
   justify-content: center;
@@ -31,7 +58,7 @@
 
 .primary:hover {
   color: var(--text-primary);
-  border: 3px solid var(--focus);
+  border: 2px solid var(--text-secondary);
 }
 .primary::before {
   content: '';
@@ -123,19 +150,19 @@
   height: 40px;
   padding: 0.2rem;
   font-weight: light;
-  font-size: 0.9em;
+  font-size: 1.2em;
 }
 
 .md {
   width: 150px;
   height: 50px;
   padding: 0.2rem 0.5rem;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .lg {
   width: 180px;
   height: 60px;
-  padding: 0.2rem 0.5rem;
-  font-size: 1.1em;
+  padding: 0.2rem 0.2rem;
+  font-size: 2em;
 }
