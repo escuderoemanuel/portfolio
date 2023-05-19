@@ -7,8 +7,8 @@ import Toggle from './Toggle/Toggle';
 
 const Header = () => {
   window.addEventListener('scroll', function () {
-    let header = document.getElementById('header');
-    let scrolled = window.pageYOffset || document.documentElement.scrollTop;
+    const header = document.getElementById('header');
+    const scrolled = window.pageYOffset || document.documentElement.scrollTop;
 
     if (scrolled > 0) {
       header.classList.add('scrolled');
@@ -18,7 +18,7 @@ const Header = () => {
   });
 
   return (
-    <div className='header'>
+    <div className='header' id='header'>
       <div className='header-principal'>
         <Logo></Logo>
         <Toggle></Toggle>

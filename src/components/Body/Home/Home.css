@@ -3,16 +3,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   background-color: transparent;
   padding: 1rem;
+  padding-top: 70px;
   position: relative;
   z-index: 100;
 }
 
+.home-content {
+  width: 100%;
+  max-height: 650px;
+  min-height: 450px;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
 /* Encabezado */
 .title-container {
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,7 +33,6 @@
 .title-home,
 .title-home p,
 .title-home h1 {
-  /* background-color: green; */
   display: flex;
   flex-direction: column;
   text-align: end;
@@ -52,6 +60,8 @@
   justify-content: end;
   text-align: end;
   color: var(--text-secondary);
+  font-family: 'Consolas';
+  letter-spacing: -1px;
 }
 
 /* Párrafo description */
@@ -59,13 +69,12 @@
   font-size: 0.9em;
   font-weight: 300;
   padding: 1rem 1.5rem;
-  /* background-color: red; */
   text-align: start;
 }
 
 /* Social Icons */
 .divSocial {
-  margin-bottom: 1.5rem;
+  margin: 1.5rem;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -91,4 +100,124 @@
   color: var(--text-primary);
   border: 2px solid var(--text-secondary);
   background-color: var(--text-secondary);
+}
+
+@media (min-width: 768px) {
+  /* General */
+  .home {
+    align-items: start;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    padding-top: 150px;
+  }
+
+  .home-content {
+    margin-bottom: 4rem;
+  }
+
+  /* Encabezado */
+  .title-container {
+    align-items: start;
+  }
+
+  .title-home,
+  .title-home p,
+  .title-home h1 {
+    text-align: start;
+    align-items: start;
+  }
+
+  .title-home p {
+    font-size: 2.5em;
+  }
+
+  .title-home h1 {
+    font-size: 3.2em;
+  }
+
+  .subtitle-home {
+    font-size: 2.3em;
+    text-align: start;
+  }
+
+  /* Párrafo description */
+  .description {
+    font-size: 1em;
+  }
+
+  /* Social Icons */
+  .divSocial {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* General */
+  .home {
+    padding: 200px 8rem;
+    padding-top: 200px;
+  }
+
+  /* Encabezado */
+  .title-container {
+    align-items: start;
+  }
+
+  .title-home,
+  .title-home p,
+  .title-home h1 {
+    text-align: start;
+    align-items: start;
+  }
+
+  .title-home p {
+    font-size: 2.5em;
+  }
+
+  .title-home h1 {
+    font-size: 3.2em;
+  }
+
+  .subtitle-home {
+    font-size: 2.3em;
+    text-align: start;
+  }
+
+  /* Párrafo description */
+  .description {
+    font-size: 1em;
+  }
+
+  /* Social Icons */
+  .divSocial {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* General */
+  .home {
+    padding: 200px 12rem;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .home-content {
+    max-width: 40%;
+    height: 650px;
+  }
 }
