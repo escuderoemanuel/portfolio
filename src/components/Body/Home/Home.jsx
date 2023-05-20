@@ -33,7 +33,9 @@ const Home = () => {
             <h1>Emanuel Escudero</h1>
           </div>
           <div className='text-animate'>
-            <h3 className='subtitle-home'>FullStack Developer</h3>
+            <h3 className='subtitle-home'>
+              Full<span>Stack</span>&nbsp;Developer <span>!</span>
+            </h3>
           </div>
         </div>
         <p className='description'>
@@ -42,9 +44,9 @@ const Home = () => {
           id, temporibus ex debitis, praesentium cupiditate atque minus.
         </p>
         <div className='divSocial'>
-          <i class='iSocial bx bxl-linkedin bx-border-circle bx-md'></i>
-          <i class='iSocial bx bxl-github bx-border-circle bx-md'></i>
-          <i class='iSocial bx bxl-whatsapp bx-border-circle bx-md'></i>
+          <i className='iSocial bx bxl-linkedin bx-border-circle bx-md'></i>
+          <i className='iSocial bx bxl-github bx-border-circle bx-md'></i>
+          <i className='iSocial bx bxl-whatsapp bx-border-circle bx-md'></i>
         </div>
       </div>
 

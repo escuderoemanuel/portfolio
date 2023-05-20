@@ -4,7 +4,9 @@ import Btn from '../../Global/Btn/Btn';
 const Portfolio = () => {
   return (
     <section className='portfolio' id='portfolio'>
-      <h3 className='titlePortfolio'>Portfolio</h3>
+      <h3 className='titlePortfolio'>
+        Portfolio<span>!</span>
+      </h3>
       <div className='portfolio-content'>
         {/* CARD */}
         <div className='cardPortfolio'>
@@ -16,11 +18,11 @@ const Portfolio = () => {
           </div>
           <div className='btn-content'>
             <button className='button-card-portfolio'>
-              <i class='bx bxl-github bx-sm'></i>
+              <i className='bx bxl-github bx-sm'></i>
               <p>GitHub</p>
             </button>
             <button className='button-card-portfolio'>
-              <i class='bx bx-link bx-sm'></i>
+              <i className='bx bx-link bx-sm'></i>
               <p>Deploy</p>
             </button>
           </div>
@@ -36,11 +38,11 @@ const Portfolio = () => {
           </div>
           <div className='btn-content'>
             <button className='button-card-portfolio'>
-              <i class='bx bxl-github bx-sm'></i>
+              <i className='bx bxl-github bx-sm'></i>
               <p>GitHub</p>
             </button>
             <button className='button-card-portfolio'>
-              <i class='bx bx-link bx-sm'></i>
+              <i className='bx bx-link bx-sm'></i>
               <p>Deploy</p>
             </button>
           </div>
@@ -56,11 +58,11 @@ const Portfolio = () => {
           </div>
           <div className='btn-content'>
             <button className='button-card-portfolio'>
-              <i class='bx bxl-github bx-sm'></i>
+              <i className='bx bxl-github bx-sm'></i>
               <p>GitHub</p>
             </button>
             <button className='button-card-portfolio'>
-              <i class='bx bx-link bx-sm'></i>
+              <i className='bx bx-link bx-sm'></i>
               <p>Deploy</p>
             </button>
           </div>

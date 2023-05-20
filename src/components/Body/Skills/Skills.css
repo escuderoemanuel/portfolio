@@ -1,49 +1,72 @@
+/* GENERAL */
 .skills {
-  min-height: 100vh;
-  padding: 10rem 9% 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
   position: relative;
+  z-index: 100;
 }
 
+/* TITLE SECTION */
 .titleSkills {
-  font-size: 4rem;
+  margin: 0;
+  font-size: 2em;
   font-weight: bold;
-  line-height: 1.2;
-  background-image: linear-gradient(to left, var(--text-main), var(--focus));
-  background-clip: text;
-  -webkit-background-clip: text; /* Para navegadores webkit */
-  color: transparent;
-  margin-bottom: 5rem;
+  color: var(--text-bright);
+  margin-bottom: 2rem;
+  align-self: flex-start;
+  margin-left: 4rem;
+}
+
+.titleSkills span {
+  font-size: 1.1em;
+  color: var(--text-secondary);
 }
 
 .titleSkills::after {
   content: '';
   display: block;
   position: relative;
-  bottom: -px; /* Ajusta la posición vertical del subrayado */
-  left: 0;
-  width: 16%; /* Ajusta la longitud del subrayado */
-  border-bottom: 5px solid var(--text-main); /* Ajusta el estilo y color del subrayado */
+  bottom: 0px; /* Ajusta la posición vertical del subrayado */
+  left: 0px;
+  width: 120%; /* Ajusta la longitud del subrayado */
+  border-bottom: 5px solid var(--text-secondary); /* Ajusta el estilo y color del subrayado */
 }
 
+/* CONTAINER */
 .skills-content {
-  background-color: var(--text-transparent-dark);
   display: flex;
-  justify-content: space-around;
-}
-.skillContainer {
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 120px;
-  height: 120px;
-  text-align: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  row-gap: 1rem;
 }
 
-.skillContainer h3 {
-  color: var(--text-muted);
+/* SKILLS CARD */
+.skill-card {
+  width: 140px;
+  height: 150px;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.skillContainer img {
-  width: 70px;
+/* IMG Card */
+.skill-card-img {
+  width: 100px;
+  height: auto;
+}
+
+@media (min-width: 1024px) {
+  .skills-content {
+    row-gap: 3rem;
+  }
+
+  .skills {
+    margin-bottom: 4rem;
+  }
 }

@@ -16,7 +16,7 @@
   --selection-dark: rgba(28, 118, 197, 0.4);
 
   --text-primary: #ededed;
-  --text-secondary: #00abf0;
+  --text-secondary: rgb(0, 171, 240);
   --text-secondary-tr: rgba(0, 171, 240, 0.5);
   --text-transparent: rgba(0, 171, 240, 0.2);
   --text-transparent-dark: rgba(0, 171, 240, 0.1);

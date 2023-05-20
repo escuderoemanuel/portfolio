@@ -11,8 +11,15 @@
   margin: 0;
   font-size: 2em;
   font-weight: bold;
-  color: var(--text-secondary);
+  color: var(--text-bright);
   margin-bottom: 2rem;
+  align-self: flex-start;
+  margin-left: 4rem;
+}
+
+.titlePortfolio span {
+  font-size: 1.1em;
+  color: var(--text-secondary);
 }
 
 .titlePortfolio::after {
@@ -30,7 +37,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
 }
 
 /* Card Portfolio */
@@ -51,7 +57,7 @@
   align-items: center;
   text-align: end;
   overflow: hidden;
-  margin: 1rem 0.5rem;
+  margin: 1rem;
 }
 /* IMG Card */
 .cardPortfolio img {
@@ -154,25 +160,27 @@
 }
 
 @media (min-width: 768px) {
+  .portfolio {
+    margin-bottom: 2rem;
+  }
   /* Portfolio Content */
   .portfolio-content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    position: relative;
     flex-wrap: wrap;
   }
 }
 
 @media (min-width: 1024px) {
+  .portfolio {
+    margin-bottom: 4rem;
+  }
   /* Portfolio Content */
   .portfolio-content {
-    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    position: relative;
-    gap: 4rem;
     flex-wrap: wrap;
   }
 

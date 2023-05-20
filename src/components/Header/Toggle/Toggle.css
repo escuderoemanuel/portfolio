@@ -8,9 +8,9 @@
   align-items: end;
   text-align: center;
   border-radius: 0.5rem;
-  cursor: pointer;
   transition: all 0.5s;
-  opacity: 1;
+  cursor: pointer;
+  background-color: var(--text-secondary-tr);
 }
 
 /* Estado Original */

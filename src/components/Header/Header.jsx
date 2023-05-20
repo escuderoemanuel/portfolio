@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import Logo from './Logo/Logo.jsx';
 import Navbar from './Navbar/Navbar.jsx';
@@ -6,6 +6,13 @@ import Languages from './Languages/Languages';
 import Toggle from './Toggle/Toggle';
 
 const Header = () => {
+  const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+
+  const handleToggleClick = () => {
+    setIsNavbarOpen(!isNavbarOpen);
+  };
+
+  /* Pone Fondo al Scrollear */
   window.addEventListener('scroll', function () {
     const header = document.getElementById('header');
     const scrolled = window.pageYOffset || document.documentElement.scrollTop;
@@ -21,10 +28,10 @@ const Header = () => {
     <div className='header' id='header'>
       <div className='header-principal'>
         <Logo></Logo>
-        <Toggle></Toggle>
+        <Toggle onToggleClick={handleToggleClick} />
       </div>
       <div className='header-secondary'>
-        {/* <Navbar></Navbar> */}
+        <Navbar isOpen={isNavbarOpen} />
         {/* <Languages></Languages> */}
       </div>
     </div>

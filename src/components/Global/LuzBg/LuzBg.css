@@ -82,11 +82,11 @@
   z-index: 1;
 }
 
-.nLuz4::before {
+.sLuz4::before {
   content: '';
   position: absolute;
-  bottom: 0%;
-  left: 55%;
+  top: 350%;
+  left: 35%;
   transform: translate(-50%, -50%);
   width: 1px;
   height: 1px;
