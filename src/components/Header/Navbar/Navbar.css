@@ -1,35 +1,104 @@
 .navbar {
   z-index: 1;
   top: 40px;
-  background-color: antiquewhite;
   display: none;
+  background-color: var(--bg-primary);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-/* .otra {
-  display: block;
+.visible {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 5px 5px;
+  position: absolute;
+  right: 0;
+  top: 72px;
+  height: 200px;
+  opacity: 1;
+  transform: translateY(0);
 }
- */
+
+.navbar a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: var(--text-color);
+  font-weight: 500;
+  margin: 0 2rem;
+  transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: var(--text-secondary);
+}
+
+/* TOGGLE */
+.toggle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: end;
+  text-align: center;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+/* Estado Original */
+.line:nth-child(1) {
+  width: 36px;
+  height: 3px;
+  border-radius: 1rem;
+  background-color: var(--text-primary);
+}
+
+.line:nth-child(2) {
+  width: 30px;
+  height: 3px;
+  border-radius: 1rem;
+  background-color: var(--text-primary);
+}
+
+.line:nth-child(3) {
+  width: 25px;
+  height: 3px;
+  border-radius: 1rem;
+  background-color: var(--text-primary);
+}
+
+.toggle:hover span:nth-child(1) {
+  transform: scaleX(0.8);
+}
+.toggle:hover span:nth-child(2) {
+  transform: scaleX(0.5);
+}
+.toggle:hover span:nth-child(3) {
+  transform: scaleX(0.8);
+}
+.toggle:active span:nth-child(1) {
+  top: 13px;
+}
+.toggle:active span:nth-child(2) {
+  top: 13px;
+}
+.toggle:active span:nth-child(3) {
+  top: 13px;
+}
+
 @media screen and (min-width: 768px) {
   .navbar {
-    display: block;
-    background-color: red;
+    opacity: 1;
+    flex-direction: row;
+    top: 12px;
+    right: 12%;
+    height: 40px;
   }
 
-  .navbar {
-    border-bottom: 1px solid var(--text-main);
-  }
-
-  .navbar a {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: var(--text-color);
-    font-weight: 500;
-    margin: 0 2rem;
-    transition: 0.3s;
-  }
-
-  .navbar a:hover,
-  .navbar a.active {
-    color: var(--text-main);
+  .toggle {
+    display: none;
   }
 }
