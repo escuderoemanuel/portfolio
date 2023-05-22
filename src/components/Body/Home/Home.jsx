@@ -44,9 +44,9 @@ const Home = () => {
           id, temporibus ex debitis, praesentium cupiditate atque minus.
         </p>
         <div className='divSocial'>
-          <i className='iSocial bx bxl-linkedin bx-border-circle bx-md'></i>
-          <i className='iSocial bx bxl-github bx-border-circle bx-md'></i>
-          <i className='iSocial bx bxl-whatsapp bx-border-circle bx-md'></i>
+          <i className='iSocial bx bxl-linkedin bx-border-circle bx-sm'></i>
+          <i className='iSocial bx bxl-github bx-border-circle bx-sm'></i>
+          <i className='iSocial bx bxl-whatsapp bx-border-circle bx-sm'></i>
         </div>
       </div>
 

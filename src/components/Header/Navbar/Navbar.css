@@ -2,10 +2,10 @@
   z-index: 1;
   top: 40px;
   display: none;
-  background-color: var(--bg-primary);
   opacity: 0;
-  transform: translateY(-10px);
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  padding: 1rem;
+  margin: 0;
 }
 
 .visible {
@@ -14,10 +14,11 @@
   border-radius: 0 0 5px 5px;
   position: absolute;
   right: 0;
-  top: 72px;
+  top: 52px;
   height: 200px;
   opacity: 1;
   transform: translateY(0);
+  background-color: var(--bg-primary-tr);
 }
 
 .navbar a {
@@ -36,8 +37,8 @@
 
 /* TOGGLE */
 .toggle {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -50,21 +51,21 @@
 
 /* Estado Original */
 .line:nth-child(1) {
-  width: 36px;
-  height: 3px;
-  border-radius: 1rem;
-  background-color: var(--text-primary);
-}
-
-.line:nth-child(2) {
   width: 30px;
   height: 3px;
   border-radius: 1rem;
   background-color: var(--text-primary);
 }
 
+.line:nth-child(2) {
+  width: 26px;
+  height: 3px;
+  border-radius: 1rem;
+  background-color: var(--text-primary);
+}
+
 .line:nth-child(3) {
-  width: 25px;
+  width: 22px;
   height: 3px;
   border-radius: 1rem;
   background-color: var(--text-primary);
@@ -92,10 +93,17 @@
 @media screen and (min-width: 768px) {
   .navbar {
     opacity: 1;
-    flex-direction: row;
-    top: 12px;
-    right: 12%;
-    height: 40px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    position: relative;
+    top: auto;
+  }
+
+  .navbar a {
+    margin: 0 1rem;
+    padding: 0;
   }
 
   .toggle {

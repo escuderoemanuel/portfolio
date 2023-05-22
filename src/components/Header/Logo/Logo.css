@@ -1,6 +1,14 @@
 .logo {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: auto;
   background-color: transparent;
   cursor: pointer;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 30px;
+    width: auto;
+  }
 }

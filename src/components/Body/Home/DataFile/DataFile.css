@@ -26,8 +26,8 @@
   align-items: center;
   height: 30px;
   border-bottom: 1px solid var(--text-muted);
-  margin-bottom: 1rem;
-  padding: 1rem;
+  margin-bottom: 0.5rem;
+  padding: 1.2rem;
   font-size: 0.8em;
 }
 
@@ -42,26 +42,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0rem 2rem;
-  font-size: 01em;
+  padding: 1rem 2rem;
+  font-size: 0.9em;
 }
 
 .body-card p {
   font-size: 1em;
   text-align: justify;
   color: var(--text-muted);
+  margin-bottom: 0.5rem;
 }
 
 /* Btn dentro del footer */
 .footer-card {
-  height: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* CV */
-
 .cv {
   position: relative;
-  width: 42%;
+  width: 35%;
   border-radius: 5px;
 }
 
@@ -143,6 +146,6 @@
 @media (min-width: 1200px) {
   .float-window {
     min-width: 450px;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
   }
 }

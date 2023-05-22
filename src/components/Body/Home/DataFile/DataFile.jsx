@@ -21,23 +21,22 @@ const DataFile = () => {
         <div className='body-card'>
           <p>
             <i>function </i> &nbsp;<b>downloadCV</b> = () =&gt; &#123; <br />
-            &nbsp;&nbsp;&nbsp;&nbsp; <i>const</i>&nbsp; aboutMe = "I am Emanue,
+            &nbsp;&nbsp;&nbsp;&nbsp; <i>const</i>&nbsp; aboutMe = "I am Emanuel,
             a dedicated and enthusiastic developer. I invite you to read my
             CV.";
             <br /> console.log(aboutMe);
             <br /> &#125; <br />
             &nbsp; <b>downloadCV();</b>
           </p>
-          <img className='cv' src='src\assets\img\dev\resumen.jpg' alt='' />
+          <img
+            className='cv'
+            src='src\assets\img\dev\file2.png'
+            alt='Imagen de una mano con un CV'
+          />
         </div>
 
         <div className='footer-card'>
-          <Btn
-            className={'primary not-rounded lg'}
-            text={'downloadCV()'}
-            iconRight={
-              <i id='btn-down' className='bx bx-chevrons-down'></i>
-            }></Btn>
+          <Btn className={'primary not-rounded sm'} text={'downloadCV()'}></Btn>
         </div>
       </div>
     </aside>

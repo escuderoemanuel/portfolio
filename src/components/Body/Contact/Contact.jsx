@@ -31,7 +31,7 @@ const Contact = () => {
                 name=''
                 id=''
                 cols='34'
-                rows='12'
+                rows='8'
                 placeholder='Your Message required'></textarea>
               <span className='focus'></span>
             </div>

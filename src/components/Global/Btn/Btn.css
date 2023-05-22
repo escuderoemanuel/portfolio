@@ -50,7 +50,6 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  font-weight: 600;
   z-index: 1;
   overflow: hidden;
   transition: 0.5s;
@@ -146,12 +145,11 @@
 
 /* Size */
 .sm {
-  max-width: 120px;
-  max-height: 40px;
+  width: 120px;
+  height: 40px;
   padding: 0.2rem;
-  font-weight: light;
   font-size: 1.2em;
-  padding: 0.1rem;
+  font-weight: lighter;
 }
 
 .md {

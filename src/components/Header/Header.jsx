@@ -22,8 +22,8 @@ const Header = () => {
       <div className='header-principal'>
         <Logo></Logo>
         <Navbar></Navbar>
+        <Languages></Languages>
       </div>
-      {/* <Languages></Languages> */}
     </div>
   );
 };
