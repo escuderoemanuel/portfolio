@@ -42,7 +42,7 @@ const Home = () => {
                 &nbsp;
                 {t('home.subtitle-home.normal')}
               </span>
-              {/* Full<span>Stack</span>&nbsp;Developer <span>!</span> */}
+              {t('home.subtitle-home.signo')}
             </h3>
           </div>
         </div>

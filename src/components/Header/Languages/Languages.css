@@ -11,28 +11,28 @@
   margin: 0;
 }
 
-.form-control {
+select {
   background-color: transparent;
   border: none;
   width: auto;
   padding: 0;
   color: var(--text-secondary);
-  font-size: 0.8em;
+  font-size: 0.9em;
   padding: 0.2rem;
+  border: none;
 }
 
-.form-control:active {
-  background-color: transparent;
+select:active {
+  border: none;
 }
-
-.form-control option {
+select option {
   background-color: var(--bg-primary);
   border: none;
   width: auto;
   padding: 0;
   color: var(--text-secondary);
-  font-size: 0.8em;
-  padding: 0.5rem;
+  font-size: 0.9em;
+  padding: 1rem;
 }
 
 @media screen and (min-width: 768px) {

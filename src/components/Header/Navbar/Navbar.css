@@ -8,6 +8,7 @@
   width: 0;
   height: 0;
   overflow: hidden;
+  position: absolute;
 }
 
 .visible {
@@ -24,13 +25,6 @@
   background-color: var(--bg-primary-tr);
   height: 200px;
   width: 200px;
-}
-
-.navbar.hidden {
-  visibility: hidden;
-  width: 0;
-  height: 0;
-  opacity: 0;
 }
 
 .navbar a {
@@ -59,8 +53,8 @@
   border-radius: 0.5rem;
   transition: all 0.5s;
   cursor: pointer;
-  position: fixed;
-  right: 30px;
+  position: relative;
+  right: 0px;
 }
 
 /* Estado Original */
@@ -107,10 +101,12 @@
     justify-content: center;
     position: relative;
     top: -1px;
+    width: auto;
+    height: auto;
   }
 
   .navbar a {
-    margin: 0 1rem;
+    margin: 0 1.2rem;
     padding: 0;
   }
 

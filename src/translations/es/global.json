@@ -3,7 +3,8 @@
     "title-home": "Hola, soy ",
     "subtitle-home": {
       "span": " Desarrollador",
-      "normal": "FullStack!"
+      "normal": "FullStack",
+      "signo": "!"
     }
   }
 }
