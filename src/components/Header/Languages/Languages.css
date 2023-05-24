@@ -11,18 +11,28 @@
   margin: 0;
 }
 
-#change-language {
-  font-size: 2rem;
-  font-weight: lighter;
+.form-control {
+  background-color: transparent;
+  border: none;
+  width: auto;
+  padding: 0;
+  color: var(--text-secondary);
+  font-size: 0.8em;
+  padding: 0.2rem;
 }
 
-.flagLanguage {
-  width: 18px;
-  transition: 0.3s;
+.form-control:active {
+  background-color: transparent;
 }
 
-.flagLanguage:hover {
-  transform: scale(1.1);
+.form-control option {
+  background-color: var(--bg-primary);
+  border: none;
+  width: auto;
+  padding: 0;
+  color: var(--text-secondary);
+  font-size: 0.8em;
+  padding: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {

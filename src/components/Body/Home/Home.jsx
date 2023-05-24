@@ -1,7 +1,10 @@
-import React from 'react';
 import './Home.css';
 import DataFile from './DataFile/DataFile';
+import { useTranslation } from 'react-i18next';
 const Home = () => {
+  /* i18Next Translation */
+  const [t, i18n] = useTranslation('global');
+
   document.addEventListener('DOMContentLoaded', function () {
     let homeSection = document.getElementById('home');
     let windowHeight = window.innerHeight;
@@ -29,12 +32,17 @@ const Home = () => {
       <div className='home-content'>
         <div className='title-container'>
           <div className='title-home'>
-            <p>Hi, I´m </p>
+            <p>{t('home.title-home')}</p>
             <h1>Emanuel Escudero</h1>
           </div>
           <div className='text-animate'>
             <h3 className='subtitle-home'>
-              Full<span>Stack</span>&nbsp;Developer <span>!</span>
+              {t('home.subtitle-home.span')}
+              <span>
+                &nbsp;
+                {t('home.subtitle-home.normal')}
+              </span>
+              {/* Full<span>Stack</span>&nbsp;Developer <span>!</span> */}
             </h3>
           </div>
         </div>

@@ -1,0 +1,9 @@
+{
+  "home": {
+    "title-home": "Hola, soy ",
+    "subtitle-home": {
+      "span": " Desarrollador",
+      "normal": "FullStack!"
+    }
+  }
+}
