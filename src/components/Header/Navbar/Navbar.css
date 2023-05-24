@@ -1,11 +1,13 @@
 .navbar {
   z-index: 1;
   top: 40px;
-  display: none;
   opacity: 0;
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-  padding: 1rem;
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out,
+    width 0.5s ease-in-out;
   margin: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
 }
 
 .visible {
@@ -14,11 +16,21 @@
   border-radius: 0 0 5px 5px;
   position: absolute;
   right: 0;
-  top: 52px;
-  height: 200px;
+  top: 55px;
   opacity: 1;
-  transform: translateY(0);
+  visibility: visible;
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out,
+    width 0.5s ease-in-out; /* Agregamos la transición en el estado visible */
   background-color: var(--bg-primary-tr);
+  height: 200px;
+  width: 200px;
+}
+
+.navbar.hidden {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  opacity: 0;
 }
 
 .navbar a {
@@ -47,58 +59,54 @@
   border-radius: 0.5rem;
   transition: all 0.5s;
   cursor: pointer;
+  position: fixed;
+  right: 30px;
 }
 
 /* Estado Original */
-.line:nth-child(1) {
+.line {
   width: 30px;
   height: 3px;
   border-radius: 1rem;
   background-color: var(--text-primary);
+  transition: transform 0.5s;
 }
 
-.line:nth-child(2) {
-  width: 26px;
-  height: 3px;
-  border-radius: 1rem;
-  background-color: var(--text-primary);
-}
-
-.line:nth-child(3) {
-  width: 22px;
-  height: 3px;
-  border-radius: 1rem;
-  background-color: var(--text-primary);
-}
-
-.toggle:hover span:nth-child(1) {
+.toggle:hover .line:nth-child(1) {
   transform: scaleX(0.8);
 }
-.toggle:hover span:nth-child(2) {
+.toggle:hover .line:nth-child(2) {
   transform: scaleX(0.5);
 }
-.toggle:hover span:nth-child(3) {
+.toggle:hover .line:nth-child(3) {
   transform: scaleX(0.8);
 }
-.toggle:active span:nth-child(1) {
-  top: 13px;
+
+.toggle.active .line:nth-child(1) {
+  transform: translateY(7.5px) scaleX(0.9) scaleY(1.1) rotate(150deg);
+  background-color: var(--text-secondary);
 }
-.toggle:active span:nth-child(2) {
-  top: 13px;
+
+.toggle.active .line:nth-child(3) {
+  transform: translateY(-7.5px) scaleX(0.9) scaleY(1.1) rotate(30deg);
+  background-color: var(--text-secondary);
 }
-.toggle:active span:nth-child(3) {
-  top: 13px;
+
+.toggle.active .line:nth-child(2) {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
   .navbar {
     opacity: 1;
     display: flex;
+    visibility: visible;
     padding: 0;
     margin: 0;
     align-items: center;
+    justify-content: center;
     position: relative;
-    top: auto;
+    top: -1px;
   }
 
   .navbar a {
