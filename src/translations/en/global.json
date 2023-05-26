@@ -26,7 +26,7 @@
         "img": "https://i.ibb.co/3S3366B/retroplace.jpg",
         "title": "RetroPlace Store",
         "type": "Online Store",
-        "tools": "HTML, CSS, ReactJs, Firebase, Git,Toastify, Bootstrap...",
+        "tools": "HTML, CSS, React Js, Firebase, Git, Toastify, Bootstrap...",
         "github": "https://github.com/escuderoemanuel/RetroPlaceStore",
         "deploy": "https://retro-place-store.vercel.app/"
       },
@@ -71,7 +71,7 @@
         "img": "https://i.ibb.co/MhKbnn6/portfolio-AP.jpg",
         "title": "Editable Portfolio",
         "type": "Argentina Programa Project",
-        "tools": "HTML, CSS, TypeScript, Angular, Java, SpringBoot, Git...",
+        "tools": "HTML, CSS, TypeScript, Angular, Java, SpringBoot, MySQL, Firebase, Render, Clever Cloud, Git...",
         "github": "https://github.com/escuderoemanuel/ArgentinaProgramaFrontend",
         "deploy": "https://portfoliofrontargprog.web.app/"
       }

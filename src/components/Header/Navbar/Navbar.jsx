@@ -27,6 +27,7 @@ const Navbar = () => {
   const handleLinkClick = (section) => {
     setActiveSection(section);
     setIsNavVisible(false);
+    setIsActive(false);
   };
 
   return (

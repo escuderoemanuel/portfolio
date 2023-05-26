@@ -27,6 +27,7 @@
 
 .header.scrolled {
   z-index: 999;
+  background-color: var(--bg-primary-tr);
   backdrop-filter: blur(10px);
 }
 

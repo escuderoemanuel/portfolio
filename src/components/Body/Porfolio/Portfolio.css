@@ -166,7 +166,7 @@ a {
 
 @media (min-width: 768px) {
   .portfolio {
-    margin-top: 2rem;
+    margin: 2rem 2rem 0rem;
   }
   /* Portfolio Content */
   .portfolio-content {
@@ -223,6 +223,6 @@ a {
 
 @media (min-width: 1024px) {
   .portfolio {
-    margin-top: 4rem;
+    margin: 4rem 8rem 0rem;
   }
 }

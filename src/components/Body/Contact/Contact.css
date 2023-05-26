@@ -163,7 +163,17 @@ textarea {
 }
 
 /* MEDIA QWERY */
+@media (min-width: 768px) {
+  .contact {
+    margin: 2rem 2rem 0rem;
+  }
+}
+
 @media (min-width: 1024px) {
+  .contact {
+    margin: 4rem 8rem 0rem;
+  }
+
   .contact-content {
     row-gap: 3rem;
   }

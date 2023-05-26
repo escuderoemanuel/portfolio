@@ -15,7 +15,10 @@ const Portfolio = () => {
       <div className='portfolio-content'>
         {/* CARD 01 */}
         <div className='cardPortfolio'>
-          <img src={t('portfolio.projects.project-01.img')} alt='' />
+          <img
+            src={t('portfolio.projects.project-01.img')}
+            alt='Project Image'
+          />
           <div className='cardPortfolioDescription'>
             <h3>{t('portfolio.projects.project-01.title')}</h3>
             <h5>{t('portfolio.projects.project-01.type')}</h5>
@@ -39,7 +42,10 @@ const Portfolio = () => {
 
         {/* CARD 02 */}
         <div className='cardPortfolio'>
-          <img src={t('portfolio.projects.project-02.img')} alt='' />
+          <img
+            src={t('portfolio.projects.project-02.img')}
+            alt='Project Image'
+          />
           <div className='cardPortfolioDescription'>
             <h3>{t('portfolio.projects.project-02.title')}</h3>
             <h5>{t('portfolio.projects.project-02.type')}</h5>
@@ -63,7 +69,10 @@ const Portfolio = () => {
 
         {/* CARD 03*/}
         <div className='cardPortfolio'>
-          <img src={t('portfolio.projects.project-03.img')} alt='' />
+          <img
+            src={t('portfolio.projects.project-03.img')}
+            alt='Project Image'
+          />
           <div className='cardPortfolioDescription'>
             <h3>{t('portfolio.projects.project-03.title')}</h3>
             <h5>{t('portfolio.projects.project-03.type')}</h5>
@@ -87,7 +96,10 @@ const Portfolio = () => {
 
         {/* CARD 04 */}
         <div className='cardPortfolio'>
-          <img src={t('portfolio.projects.project-04.img')} alt='' />
+          <img
+            src={t('portfolio.projects.project-04.img')}
+            alt='Project Image'
+          />
           <div className='cardPortfolioDescription'>
             <h3>{t('portfolio.projects.project-04.title')}</h3>
             <h5>{t('portfolio.projects.project-04.type')}</h5>
@@ -111,7 +123,10 @@ const Portfolio = () => {
 
         {/* CARD 05 */}
         <div className='cardPortfolio'>
-          <img src={t('portfolio.projects.project-05.img')} alt='' />
+          <img
+            src={t('portfolio.projects.project-05.img')}
+            alt='Project Image'
+          />
           <div className='cardPortfolioDescription'>
             <h3>{t('portfolio.projects.project-05.title')}</h3>
             <h5>{t('portfolio.projects.project-05.type')}</h5>
@@ -135,7 +150,10 @@ const Portfolio = () => {
 
         {/* CARD 06 */}
         <div className='cardPortfolio'>
-          <img src={t('portfolio.projects.project-06.img')} alt='' />
+          <img
+            src={t('portfolio.projects.project-06.img')}
+            alt='Project Image'
+          />
           <div className='cardPortfolioDescription'>
             <h3>{t('portfolio.projects.project-06.title')}</h3>
             <h5>{t('portfolio.projects.project-06.type')}</h5>
