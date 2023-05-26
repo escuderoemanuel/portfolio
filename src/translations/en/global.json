@@ -1,10 +1,151 @@
 {
+  "navbar": {
+    "link-1": "Home",
+    "link-2": "Portfolio",
+    "link-3": "Skills",
+    "link-4": "Contact"
+  },
   "home": {
     "title-home": "Hi, I am ",
     "subtitle-home": {
       "span": " FullStack ",
       "normal": "Developer",
       "signo": "!"
+    },
+    "about": "I invite you to learn about the projects I've worked on recently and see the progress I've made in my training as a programmer. I look forward to being part of a committed team, with which to face new challenges and from which to continue learning!",
+    "window-float": {
+      "paragraph": "I am Emanuel, a dedicated and enthusiastic developer. I invite you to download and read my CV."
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "span-portfolio": "!",
+    "projects": {
+      "project-01": {
+        "id": 1,
+        "img": "https://i.ibb.co/3S3366B/retroplace.jpg",
+        "title": "RetroPlace Store",
+        "type": "Online Store",
+        "tools": "HTML, CSS, ReactJs, Firebase, Git,Toastify, Bootstrap...",
+        "github": "https://github.com/escuderoemanuel/RetroPlaceStore",
+        "deploy": "https://retro-place-store.vercel.app/"
+      },
+      "project-02": {
+        "id": 2,
+        "img": "https://i.ibb.co/dprm1cR/kprem.jpg",
+        "title": "KPREM Arte Gráfico",
+        "type": "Online store",
+        "tools": "HTML, CSS, JavaScrit Vanilla, Sass, Git, Seo...",
+        "github": "https://github.com/escuderoemanuel/KPREM-ArteGrafico",
+        "deploy": "https://escuderoemanuel.github.io/KPREM-ArteGrafico/"
+      },
+      "project-03": {
+        "id": 3,
+        "img": "https://i.ibb.co/f0fGVQH/mahoarcaoltra.jpg",
+        "title": "Maho Arca Oltra",
+        "type": "Static Personal Website",
+        "tools": "HTML, CSS, Sass, JavaScript, Git, Seo...",
+        "github": "https://github.com/escuderoemanuel/MahoArcaOltra",
+        "deploy": "https://escuderoemanuel.github.io/MahoArcaOltra/"
+      },
+      "project-04": {
+        "id": 4,
+        "img": "https://i.ibb.co/xsSBk8f/edguitars2.jpg",
+        "title": "ED Guitars",
+        "type": "Static Website About Guitars",
+        "tools": "HTML, CSS, Sass, Bootstrap, Git, Seo...",
+        "github": "https://github.com/escuderoemanuel/EDGuitars",
+        "deploy": "https://escuderoemanuel.github.io/EDGuitars/"
+      },
+      "project-05": {
+        "id": 5,
+        "img": "https://i.ibb.co/5G9SXBW/florescastillo.jpg",
+        "title": "F&C Accounting",
+        "type": "Static Personal Website",
+        "tools": "HTML, CSS, Sass, Git, Seo...",
+        "github": "https://github.com/escuderoemanuel/FC-AsesorasContables",
+        "deploy": "https://escuderoemanuel.github.io/FC-AsesorasContables/"
+      },
+      "project-06": {
+        "id": 6,
+        "img": "https://i.ibb.co/MhKbnn6/portfolio-AP.jpg",
+        "title": "Editable Portfolio",
+        "type": "Argentina Programa Project",
+        "tools": "HTML, CSS, TypeScript, Angular, Java, SpringBoot, Git...",
+        "github": "https://github.com/escuderoemanuel/ArgentinaProgramaFrontend",
+        "deploy": "https://portfoliofrontargprog.web.app/"
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "span-skills": "!",
+    "skills-list": {
+      "skill-01": {
+        "title": "HTML",
+        "img": "https://i.ibb.co/VH4bp5Y/html.png"
+      },
+      "skill-02": {
+        "title": "CSS",
+        "img": "https://i.ibb.co/mDNKpgM/css.png"
+      },
+      "skill-03": {
+        "title": "SASS",
+        "img": "https://i.ibb.co/n7gsyQ5/sass-icon-130835.png"
+      },
+      "skill-04": {
+        "title": "Bootstrap",
+        "img": "https://i.ibb.co/TmwQPdB/bootstrap.png"
+      },
+      "skill-05": {
+        "title": "JavaScript",
+        "img": "https://i.ibb.co/TW6ChMh/js.png"
+      },
+      "skill-06": {
+        "title": "TypeScript",
+        "img": "https://i.ibb.co/VNbg3FV/typescript.png"
+      },
+      "skill-07": {
+        "title": "ReactJs",
+        "img": "https://i.ibb.co/CHZkf9M/reactjs.png"
+      },
+      "skill-08": {
+        "title": "Angular",
+        "img": "https://i.ibb.co/rQpw3fM/angular.png"
+      },
+      "skill-09": {
+        "title": "MySQL",
+        "img": "https://i.ibb.co/mSRmnRV/mysql.png"
+      },
+      "skill-10": {
+        "title": "Git",
+        "img": "https://i.ibb.co/5ByKx1H/Git.png"
+      },
+      "skill-11": {
+        "title": "SEO",
+        "img": "https://i.ibb.co/Lh8yP9R/seo.png"
+      },
+
+      "skill-12": {
+        "title": "Java",
+        "img": "https://i.ibb.co/NpF5Zxf/java.png"
+      },
+
+      "skill-13": {
+        "title": "Spring Boot",
+        "img": "https://i.ibb.co/JH1kwQB/springboot.png"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "span-contact": "Me!",
+    "form": {
+      "fullname": "Full Name",
+      "email": "E-mail Address",
+      "mobile-number": "Mobile Number",
+      "text-area": "Your Message",
+      "button": "Submit"
     }
   }
 }

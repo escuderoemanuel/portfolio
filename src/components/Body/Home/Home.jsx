@@ -46,11 +46,7 @@ const Home = () => {
             </h3>
           </div>
         </div>
-        <p className='description'>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
-          quibusdam, molestiae nostrum ea possimus commodi modi cum nemo dicta
-          id, temporibus ex debitis, praesentium cupiditate atque minus.
-        </p>
+        <p className='description'>{t('home.about')}</p>
         <div className='divSocial'>
           <i className='iSocial bx bxl-linkedin bx-border-circle bx-sm'></i>
           <i className='iSocial bx bxl-github bx-border-circle bx-sm'></i>

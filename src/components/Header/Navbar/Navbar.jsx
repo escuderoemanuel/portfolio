@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import './Navbar.css';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
+  /* i18Next Translation */
+  const [t, i18n] = useTranslation('global');
+
   /* Estado Inicial de la visibilidad de la navbar con UseState */
   const [isNavVisible, setIsNavVisible] = useState(false);
   /* Estado Inicial de la section activa con UseState */
@@ -39,7 +43,7 @@ const Navbar = () => {
           className={`navbar-link ${activeSection === 'home' ? 'active' : ''}`}
           href='#home'
           onClick={() => handleLinkClick('home')}>
-          Home
+          {t('navbar.link-1')}
         </a>
         <a
           className={`navbar-link ${
@@ -47,7 +51,7 @@ const Navbar = () => {
           }`}
           href='#portfolio'
           onClick={() => handleLinkClick('portfolio')}>
-          Portfolio
+          {t('navbar.link-2')}
         </a>
         <a
           className={`navbar-link ${
@@ -55,7 +59,7 @@ const Navbar = () => {
           }`}
           href='#skills'
           onClick={() => handleLinkClick('skills')}>
-          Skills
+          {t('navbar.link-3')}
         </a>
         <a
           className={`navbar-link ${
@@ -63,7 +67,7 @@ const Navbar = () => {
           }`}
           href='#contact'
           onClick={() => handleLinkClick('contact')}>
-          Contact
+          {t('navbar.link-4')}
         </a>
       </nav>
     </>

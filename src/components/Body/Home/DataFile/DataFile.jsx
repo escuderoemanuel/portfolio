@@ -1,8 +1,11 @@
 import React from 'react';
 import './DataFile.css';
 import Btn from '../../../Global/Btn/Btn';
+import { useTranslation } from 'react-i18next';
 
 const DataFile = () => {
+  /* i18Next Translation */
+  const [t, i18n] = useTranslation('global');
   return (
     <aside className='float-window'>
       <div className='card'>
@@ -21,9 +24,8 @@ const DataFile = () => {
         <div className='body-card'>
           <p>
             <i>function </i> &nbsp;<b>downloadCV</b> = () =&gt; &#123; <br />
-            &nbsp;&nbsp;&nbsp;&nbsp; <i>const</i>&nbsp; aboutMe = "I am Emanuel,
-            a dedicated and enthusiastic developer. I invite you to read my
-            CV.";
+            &nbsp;&nbsp;&nbsp;&nbsp; <i>const</i>&nbsp; aboutMe = "
+            {t('home.window-float.paragraph')}";
             <br /> console.log(aboutMe);
             <br /> &#125; <br />
             &nbsp; <b>downloadCV();</b>
