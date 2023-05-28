@@ -13,7 +13,10 @@ const Contact = () => {
       </h3>
       <div className='Luz5'></div>
       <div className='contact-content'>
-        <form action='#'>
+        <form
+          action='https://formsubmit.co/escudero.mdz@gmail.com'
+          method='POST'>
+          {/* Name */}
           <div className='input-box'>
             <div
               className='input-field'
@@ -22,10 +25,12 @@ const Contact = () => {
               <input
                 type='text'
                 placeholder={t('contact.form.fullname')}
+                name='name'
                 required
               />
               <span className='focus'></span>
             </div>
+            {/* Email */}
             <div
               className='input-field'
               data-aos='zoom-in-left'
@@ -33,10 +38,12 @@ const Contact = () => {
               <input
                 type='text'
                 placeholder={t('contact.form.email')}
+                name='email'
                 required
               />
               <span className='focus'></span>
             </div>
+            {/* Number */}
             <div
               className='input-field'
               data-aos='zoom-in-left'
@@ -44,6 +51,7 @@ const Contact = () => {
               <input
                 type='number'
                 placeholder={t('contact.form.mobile-number')}
+                name='number'
                 required
               />
               <span className='focus'></span>
@@ -53,11 +61,11 @@ const Contact = () => {
               data-aos='zoom-in-left'
               data-aos-delay='400'>
               <textarea
-                name=''
                 id=''
                 cols='34'
                 rows='8'
                 placeholder={t('contact.form.text-area')}
+                name='message'
                 required></textarea>
               <span className='focus'></span>
             </div>
@@ -68,6 +76,13 @@ const Contact = () => {
               </button>
             </div>
           </div>
+
+          <input
+            type='hidden'
+            name='_next'
+            defaultValue='http://localhost:5173/'
+          />
+          <input type='hidden' name='_captcha' defaultValue='false' />
         </form>
       </div>
     </section>
