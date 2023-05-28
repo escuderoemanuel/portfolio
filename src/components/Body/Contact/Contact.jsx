@@ -70,7 +70,6 @@ const Contact = () => {
               <span className='focus'></span>
             </div>
             <div className='btn-box'>
-              {/* BOTON DESABILITADO */}
               <button disabled='' type='submit' className='btn'>
                 {t('contact.form.button')}
               </button>
@@ -80,7 +79,7 @@ const Contact = () => {
           <input
             type='hidden'
             name='_next'
-            defaultValue='http://localhost:5173/'
+            defaultValue='https://emanuelescudero.vercel.app/'
           />
           <input type='hidden' name='_captcha' defaultValue='false' />
         </form>
