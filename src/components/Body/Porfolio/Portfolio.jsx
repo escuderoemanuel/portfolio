@@ -8,7 +8,7 @@ const Portfolio = () => {
 
   return (
     <section className='portfolio' id='portfolio'>
-      <h3 className='titlePortfolio' data-aos='fade-right' data-aos-delay='50'>
+      <h3 className='titlePortfolio' data-aos='fade-left' data-aos-delay='50'>
         {t('portfolio.title')}
         <span>{t('portfolio.span-portfolio')}</span>
       </h3>
