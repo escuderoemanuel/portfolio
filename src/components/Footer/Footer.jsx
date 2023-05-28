@@ -6,6 +6,7 @@ const Footer = () => {
       <div className='footerContainer'>
         <p>© 2023 | All Rights Reserved</p>
         <p>[ Powered by Emanuel Escudero ]</p>
+        <span className='luzFooter'></span>
       </div>
     </section>
   );

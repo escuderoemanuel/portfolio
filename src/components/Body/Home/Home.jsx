@@ -28,7 +28,7 @@ const Home = () => {
   });
 
   return (
-    <div className='home' id='home'>
+    <div className='home' id='home' data-aos='zoom-in' data-aos-delay='350'>
       <div className='home-content'>
         <div className='title-container'>
           <div className='title-home'>
@@ -37,12 +37,7 @@ const Home = () => {
           </div>
           <div className='text-animate'>
             <h3 className='subtitle-home'>
-              {t('home.subtitle-home.span')}
-              <span>
-                &nbsp;
-                {t('home.subtitle-home.normal')}
-              </span>
-              {t('home.subtitle-home.signo')}
+              FrontEnd<span>&nbsp;Developer</span>!
             </h3>
           </div>
         </div>

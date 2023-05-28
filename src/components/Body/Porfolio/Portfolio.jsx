@@ -8,13 +8,16 @@ const Portfolio = () => {
 
   return (
     <section className='portfolio' id='portfolio'>
-      <h3 className='titlePortfolio'>
+      <h3 className='titlePortfolio' data-aos='fade-right' data-aos-delay='50'>
         {t('portfolio.title')}
         <span>{t('portfolio.span-portfolio')}</span>
       </h3>
       <div className='portfolio-content'>
         {/* CARD 01 */}
-        <div className='cardPortfolio'>
+        <div
+          className='cardPortfolio'
+          data-aos='flip-left'
+          data-aos-delay='350'>
           <img
             src={t('portfolio.projects.project-01.img')}
             alt='Project Image'
@@ -47,7 +50,10 @@ const Portfolio = () => {
         </div>
 
         {/* CARD 02 */}
-        <div className='cardPortfolio'>
+        <div
+          className='cardPortfolio'
+          data-aos='flip-right'
+          data-aos-delay='150'>
           <img
             src={t('portfolio.projects.project-02.img')}
             alt='Project Image'
@@ -80,7 +86,10 @@ const Portfolio = () => {
         </div>
 
         {/* CARD 03*/}
-        <div className='cardPortfolio'>
+        <div
+          className='cardPortfolio'
+          data-aos='fade-right'
+          data-aos-delay='450'>
           <img
             src={t('portfolio.projects.project-03.img')}
             alt='Project Image'
@@ -113,7 +122,7 @@ const Portfolio = () => {
         </div>
 
         {/* CARD 04 */}
-        <div className='cardPortfolio'>
+        <div className='cardPortfolio' data-aos='flip-right'>
           <img
             src={t('portfolio.projects.project-04.img')}
             alt='Project Image'
@@ -146,7 +155,10 @@ const Portfolio = () => {
         </div>
 
         {/* CARD 05 */}
-        <div className='cardPortfolio'>
+        <div
+          className='cardPortfolio'
+          data-aos='flip-left'
+          data-aos-delay='400'>
           <img
             src={t('portfolio.projects.project-05.img')}
             alt='Project Image'
@@ -179,7 +191,10 @@ const Portfolio = () => {
         </div>
 
         {/* CARD 06 */}
-        <div className='cardPortfolio'>
+        <div
+          className='cardPortfolio'
+          data-aos='flip-right'
+          data-aos-delay='300'>
           <img
             src={t('portfolio.projects.project-06.img')}
             alt='Project Image'

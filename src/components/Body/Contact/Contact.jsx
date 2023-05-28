@@ -7,7 +7,7 @@ const Contact = () => {
 
   return (
     <section className='contact' id='contact'>
-      <h3 className='titleContact'>
+      <h3 className='titleContact' data-aos='fade-right' data-aos-delay='50'>
         {t('contact.title')}
         <span> {t('contact.span-contact')}</span>
       </h3>
@@ -15,7 +15,10 @@ const Contact = () => {
       <div className='contact-content'>
         <form action='#'>
           <div className='input-box'>
-            <div className='input-field'>
+            <div
+              className='input-field'
+              data-aos='zoom-in-left'
+              data-aos-delay='100'>
               <input
                 type='text'
                 placeholder={t('contact.form.fullname')}
@@ -23,7 +26,10 @@ const Contact = () => {
               />
               <span className='focus'></span>
             </div>
-            <div className='input-field'>
+            <div
+              className='input-field'
+              data-aos='zoom-in-left'
+              data-aos-delay='200'>
               <input
                 type='text'
                 placeholder={t('contact.form.email')}
@@ -31,7 +37,10 @@ const Contact = () => {
               />
               <span className='focus'></span>
             </div>
-            <div className='input-field'>
+            <div
+              className='input-field'
+              data-aos='zoom-in-left'
+              data-aos-delay='300'>
               <input
                 type='number'
                 placeholder={t('contact.form.mobile-number')}
@@ -39,7 +48,10 @@ const Contact = () => {
               />
               <span className='focus'></span>
             </div>
-            <div className='text-area'>
+            <div
+              className='text-area'
+              data-aos='zoom-in-left'
+              data-aos-delay='400'>
               <textarea
                 name=''
                 id=''
@@ -51,7 +63,7 @@ const Contact = () => {
             </div>
             <div className='btn-box'>
               {/* BOTON DESABILITADO */}
-              <button disabled='disabled' type='submit' className='btn'>
+              <button disabled='' type='submit' className='btn'>
                 {t('contact.form.button')}
               </button>
             </div>

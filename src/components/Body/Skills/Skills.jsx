@@ -8,13 +8,13 @@ const Skills = () => {
 
   return (
     <section className='skills' id='skills'>
-      <h3 className='titleSkills'>
+      <h3 className='titleSkills' data-aos='fade-right' data-aos-delay='50'>
         {t('skills.title')}
         <span>{t('skills.span-skills')}</span>
       </h3>
       <div className='skills-content'>
         {/* CARD 01 */}
-        <div className='skill-card'>
+        <div className='skill-card' data-aos='zoom-in' data-aos-delay='50'>
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-01.img')}
@@ -26,7 +26,7 @@ const Skills = () => {
         </div>
 
         {/* CARD 02 */}
-        <div className='skill-card'>
+        <div className='skill-card' data-aos='zoom-in' data-aos-delay='70'>
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-02.img')}
@@ -37,7 +37,7 @@ const Skills = () => {
           </p>
         </div>
         {/* CARD 03 */}
-        <div className='skill-card'>
+        <div className='skill-card' data-aos='zoom-in' data-aos-delay='90'>
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-03.img')}
@@ -48,7 +48,7 @@ const Skills = () => {
           </p>
         </div>
         {/* CARD 04 */}
-        <div className='skill-card'>
+        <div className='skill-card' data-aos='zoom-in' data-aos-delay='110'>
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-04.img')}
@@ -59,7 +59,7 @@ const Skills = () => {
           </p>
         </div>
         {/* CARD 05 */}
-        <div className='skill-card'>
+        <div className='skill-card' data-aos='zoom-in' data-aos-delay='130'>
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-05.img')}
@@ -70,7 +70,7 @@ const Skills = () => {
           </p>
         </div>
         {/* CARD 06 */}
-        <div className='skill-card'>
+        <div className='skill-card' data-aos='zoom-in' data-aos-delay='150'>
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-06.img')}
@@ -81,7 +81,7 @@ const Skills = () => {
           </p>
         </div>
         {/* CARD 07 */}
-        <div className='skill-card'>
+        <div className='skill-card' data-aos='zoom-in' data-aos-delay='170'>
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-07.img')}
@@ -92,7 +92,7 @@ const Skills = () => {
           </p>
         </div>
         {/* CARD 08 */}
-        <div className='skill-card'>
+        <div className='skill-card' data-aos='zoom-in' data-aos-delay='190'>
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-08.img')}
@@ -103,7 +103,7 @@ const Skills = () => {
           </p>
         </div>
         {/* CARD 09 */}
-        <div className='skill-card'>
+        <div className='skill-card' data-aos='zoom-in' data-aos-delay='210'>
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-09.img')}
@@ -114,7 +114,7 @@ const Skills = () => {
           </p>
         </div>
         {/* CARD 10 */}
-        <div className='skill-card'>
+        <div className='skill-card' data-aos='zoom-in' data-aos-delay='230'>
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-10.img')}
@@ -125,7 +125,7 @@ const Skills = () => {
           </p>
         </div>
         {/* CARD 11 */}
-        <div className='skill-card'>
+        <div className='skill-card' data-aos='zoom-in' data-aos-delay='250'>
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-11.img')}
@@ -136,7 +136,7 @@ const Skills = () => {
           </p>
         </div>
         {/* CARD 12 */}
-        <div className='skill-card'>
+        <div className='skill-card' data-aos='zoom-in' data-aos-delay='270'>
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-12.img')}

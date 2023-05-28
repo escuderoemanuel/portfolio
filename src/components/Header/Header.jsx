@@ -18,7 +18,7 @@ const Header = () => {
   });
 
   return (
-    <div className='header' id='header'>
+    <div className='header' id='header' data-aos='zoom-in'>
       <div className='header-principal'>
         <Logo></Logo>
         <Navbar></Navbar>
