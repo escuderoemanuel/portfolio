@@ -38,7 +38,14 @@ const DataFile = () => {
         </div>
 
         <div className='footer-card'>
-          <Btn className={'primary not-rounded sm'} text={'downloadCV()'}></Btn>
+          <a
+            href='src\assets\files\EmanuelEscuderoFrontendDeveloperCV.pdf'
+            download
+            target='blank'>
+            <Btn
+              className={'primary not-rounded sm'}
+              text={'downloadCV()'}></Btn>
+          </a>
         </div>
       </div>
     </aside>

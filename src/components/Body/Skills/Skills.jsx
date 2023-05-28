@@ -18,7 +18,7 @@ const Skills = () => {
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-01.img')}
-            alt=''
+            alt='skill image'
           />
           <p className='skill-card-p'>
             {t('skills.skills-list.skill-01.title')}
@@ -30,7 +30,7 @@ const Skills = () => {
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-02.img')}
-            alt=''
+            alt='skill image'
           />
           <p className='skill-card-p'>
             {t('skills.skills-list.skill-02.title')}
@@ -41,7 +41,7 @@ const Skills = () => {
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-03.img')}
-            alt=''
+            alt='skill image'
           />
           <p className='skill-card-p'>
             {t('skills.skills-list.skill-03.title')}
@@ -52,7 +52,7 @@ const Skills = () => {
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-04.img')}
-            alt=''
+            alt='skill image'
           />
           <p className='skill-card-p'>
             {t('skills.skills-list.skill-04.title')}
@@ -63,7 +63,7 @@ const Skills = () => {
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-05.img')}
-            alt=''
+            alt='skill image'
           />
           <p className='skill-card-p'>
             {t('skills.skills-list.skill-05.title')}
@@ -74,7 +74,7 @@ const Skills = () => {
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-06.img')}
-            alt=''
+            alt='skill image'
           />
           <p className='skill-card-p'>
             {t('skills.skills-list.skill-06.title')}
@@ -85,7 +85,7 @@ const Skills = () => {
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-07.img')}
-            alt=''
+            alt='skill image'
           />
           <p className='skill-card-p'>
             {t('skills.skills-list.skill-07.title')}
@@ -96,7 +96,7 @@ const Skills = () => {
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-08.img')}
-            alt=''
+            alt='skill image'
           />
           <p className='skill-card-p'>
             {t('skills.skills-list.skill-08.title')}
@@ -107,7 +107,7 @@ const Skills = () => {
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-09.img')}
-            alt=''
+            alt='skill image'
           />
           <p className='skill-card-p'>
             {t('skills.skills-list.skill-09.title')}
@@ -118,7 +118,7 @@ const Skills = () => {
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-10.img')}
-            alt=''
+            alt='skill image'
           />
           <p className='skill-card-p'>
             {t('skills.skills-list.skill-10.title')}
@@ -129,7 +129,7 @@ const Skills = () => {
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-11.img')}
-            alt=''
+            alt='skill image'
           />
           <p className='skill-card-p'>
             {t('skills.skills-list.skill-11.title')}
@@ -140,7 +140,7 @@ const Skills = () => {
           <img
             className='skill-card-img'
             src={t('skills.skills-list.skill-12.img')}
-            alt=''
+            alt='skill image'
           />
           <p className='skill-card-p'>
             {t('skills.skills-list.skill-12.title')}

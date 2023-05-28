@@ -48,9 +48,26 @@ const Home = () => {
         </div>
         <p className='description'>{t('home.about')}</p>
         <div className='divSocial'>
-          <i className='iSocial bx bxl-linkedin bx-border-circle bx-sm'></i>
-          <i className='iSocial bx bxl-github bx-border-circle bx-sm'></i>
-          <i className='iSocial bx bxl-whatsapp bx-border-circle bx-sm'></i>
+          <a
+            href='https://www.linkedin.com/in/emanuel-escudero-657675b7/'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <i className='iSocial bx bxl-linkedin bx-border-circle bx-sm'></i>
+          </a>
+
+          <a
+            href='https://github.com/escuderoemanuel'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <i className='iSocial bx bxl-github bx-border-circle bx-sm'></i>
+          </a>
+
+          <a
+            href='https://wa.me/5492612061160'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <i className='iSocial bx bxl-whatsapp bx-border-circle bx-sm'></i>
+          </a>
         </div>
       </div>
 

@@ -27,13 +27,19 @@ const Portfolio = () => {
           <div className='btn-content'>
             <button className='button-card-portfolio'>
               <i className='bx bxl-github bx-sm'></i>
-              <a href={t('portfolio.projects.project-01.github')}>
+              <a
+                href={t('portfolio.projects.project-01.github')}
+                target='_blank'
+                rel='noopener noreferrer'>
                 <p>GitHub</p>
               </a>
             </button>
             <button className='button-card-portfolio'>
               <i className='bx bx-link bx-sm'></i>
-              <a href={t('portfolio.projects.project-01.deploy')}>
+              <a
+                href={t('portfolio.projects.project-01.deploy')}
+                target='_blank'
+                rel='noopener noreferrer'>
                 <p>Deploy</p>
               </a>
             </button>
@@ -54,13 +60,19 @@ const Portfolio = () => {
           <div className='btn-content'>
             <button className='button-card-portfolio'>
               <i className='bx bxl-github bx-sm'></i>
-              <a href={t('portfolio.projects.project-02.github')}>
+              <a
+                href={t('portfolio.projects.project-02.github')}
+                target='_blank'
+                rel='noopener noreferrer'>
                 <p>GitHub</p>
               </a>
             </button>
             <button className='button-card-portfolio'>
               <i className='bx bx-link bx-sm'></i>
-              <a href={t('portfolio.projects.project-02.deploy')}>
+              <a
+                href={t('portfolio.projects.project-02.deploy')}
+                target='_blank'
+                rel='noopener noreferrer'>
                 <p>Deploy</p>
               </a>
             </button>
@@ -81,13 +93,19 @@ const Portfolio = () => {
           <div className='btn-content'>
             <button className='button-card-portfolio'>
               <i className='bx bxl-github bx-sm'></i>
-              <a href={t('portfolio.projects.project-03.github')}>
+              <a
+                href={t('portfolio.projects.project-03.github')}
+                target='_blank'
+                rel='noopener noreferrer'>
                 <p>GitHub</p>
               </a>
             </button>
             <button className='button-card-portfolio'>
               <i className='bx bx-link bx-sm'></i>
-              <a href={t('portfolio.projects.project-03.deploy')}>
+              <a
+                href={t('portfolio.projects.project-03.deploy')}
+                target='_blank'
+                rel='noopener noreferrer'>
                 <p>Deploy</p>
               </a>
             </button>
@@ -108,13 +126,19 @@ const Portfolio = () => {
           <div className='btn-content'>
             <button className='button-card-portfolio'>
               <i className='bx bxl-github bx-sm'></i>
-              <a href={t('portfolio.projects.project-04.github')}>
+              <a
+                href={t('portfolio.projects.project-04.github')}
+                target='_blank'
+                rel='noopener noreferrer'>
                 <p>GitHub</p>
               </a>
             </button>
             <button className='button-card-portfolio'>
               <i className='bx bx-link bx-sm'></i>
-              <a href={t('portfolio.projects.project-04.deploy')}>
+              <a
+                href={t('portfolio.projects.project-04.deploy')}
+                target='_blank'
+                rel='noopener noreferrer'>
                 <p>Deploy</p>
               </a>
             </button>
@@ -135,13 +159,19 @@ const Portfolio = () => {
           <div className='btn-content'>
             <button className='button-card-portfolio'>
               <i className='bx bxl-github bx-sm'></i>
-              <a href={t('portfolio.projects.project-05.github')}>
+              <a
+                href={t('portfolio.projects.project-05.github')}
+                target='_blank'
+                rel='noopener noreferrer'>
                 <p>GitHub</p>
               </a>
             </button>
             <button className='button-card-portfolio'>
               <i className='bx bx-link bx-sm'></i>
-              <a href={t('portfolio.projects.project-05.deploy')}>
+              <a
+                href={t('portfolio.projects.project-05.deploy')}
+                target='_blank'
+                rel='noopener noreferrer'>
                 <p>Deploy</p>
               </a>
             </button>
@@ -162,13 +192,19 @@ const Portfolio = () => {
           <div className='btn-content'>
             <button className='button-card-portfolio'>
               <i className='bx bxl-github bx-sm'></i>
-              <a href={t('portfolio.projects.project-06.github')}>
+              <a
+                href={t('portfolio.projects.project-06.github')}
+                target='_blank'
+                rel='noopener noreferrer'>
                 <p>GitHub</p>
               </a>
             </button>
             <button className='button-card-portfolio'>
               <i className='bx bx-link bx-sm'></i>
-              <a href={t('portfolio.projects.project-06.deploy')}>
+              <a
+                href={t('portfolio.projects.project-06.deploy')}
+                target='_blank'
+                rel='noopener noreferrer'>
                 <p>Deploy</p>
               </a>
             </button>

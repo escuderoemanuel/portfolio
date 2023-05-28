@@ -21,3 +21,9 @@
   align-items: center;
   text-align: center;
 }
+
+.footerContainer p {
+  margin: 0.2rem;
+  font-weight: lighter;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
