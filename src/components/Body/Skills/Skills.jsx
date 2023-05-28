@@ -14,6 +14,7 @@ const Skills = () => {
         {t('skills.title')}
         <span>{t('skills.span-skills')}</span>
       </h3>
+      {/* Contenedor de los items skills */}
       <div className='skill-content'>
         <ul>
           {Object.values(skillsList).map((skill, index) => (
