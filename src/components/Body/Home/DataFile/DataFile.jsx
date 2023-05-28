@@ -39,7 +39,7 @@ const DataFile = () => {
 
         <div className='footer-card'>
           <a
-            href='src\assets\files\EmanuelEscuderoFrontendDeveloperCV.pdf'
+            href='./src/assets/files/EmanuelEscuderoFrontendDeveloperCV.pdf'
             download
             target='blank'>
             <Btn
