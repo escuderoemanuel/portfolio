@@ -44,9 +44,10 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 900px;
+  max-width: 350px;
   row-gap: 1rem;
   z-index: 2;
+overflow: hidden;
 }
 
 /* FORMULARIO CONTACTO */
@@ -168,6 +169,10 @@ textarea {
   .contact {
     margin: 2rem 2rem 0rem;
   }
+
+.contact-content: {
+max-width: 900px;
+}
 }
 
 @media (min-width: 1024px) {
