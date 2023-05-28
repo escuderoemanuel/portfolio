@@ -62,8 +62,8 @@ const Contact = () => {
               data-aos-delay='400'>
               <textarea
                 id=''
-                cols='34'
-                rows='8'
+                /* cols='34'
+                rows='8' */
                 placeholder={t('contact.form.text-area')}
                 name='message'
                 required></textarea>
