@@ -32,7 +32,7 @@ const DataFile = () => {
           </p>
           <img
             className='cv'
-            src='./src/assets/img/dev/file2.png'
+            src='https://i.ibb.co/W5KNBXk/file2.png'
             alt='Imagen de una mano con un CV'
           />
         </div>
