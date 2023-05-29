@@ -32,16 +32,16 @@ const DataFile = () => {
           </p>
           <img
             className='cv'
-            src='https://i.ibb.co/W5KNBXk/file2.png'
+            src='/assets/img/others/docIcon.png'
             alt='Imagen de una mano con un CV'
           />
         </div>
 
         <div className='footer-card'>
           <a
-            href='https://drive.google.com/file/d/1AHnuiZAsHZLO8j6V6nm_MlCBeeHnNEmm/view?usp=sharing'
+            href='/assets/files/EmanuelEscuderoFrontendDeveloperCV.pdf'
             target='_blank'
-            download='EmanuelEscuderoFrontendDeveloper.CV'>
+            download='EmanuelEscuderoFrontendDeveloperCV.pdf'>
             <Btn
               className={'primary not-rounded sm'}
               text={'downloadCV()'}></Btn>
