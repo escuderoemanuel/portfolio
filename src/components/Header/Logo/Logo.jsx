@@ -12,8 +12,8 @@ const Logo = () => {
     <img
       className='logo'
       id='logo'
-      src='https://i.ibb.co/ZT13Snc/Logo2023.png'
-      alt=''
+      src='src/assets/img/dev/Logo2023.png'
+      alt='Developer Logotype'
       onClick={handleScrollToTop}
     />
   );
