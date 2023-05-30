@@ -41,7 +41,8 @@ const DataFile = () => {
           <a
             href='/assets/files/EmanuelEscuderoFrontendDeveloperCV.pdf'
             target='_blank'
-            download='EmanuelEscuderoFrontendDeveloperCV.pdf'>
+            download='EmanuelEscuderoFrontendDeveloperCV.pdf'
+            rel='noopener noreferrer'>
             <Btn
               className={'primary not-rounded sm'}
               text={'downloadCV()'}></Btn>

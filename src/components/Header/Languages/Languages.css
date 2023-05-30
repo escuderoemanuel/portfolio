@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 35px;
+  width: auto;
   position: absolute;
   right: 90px;
   font-size: 0.9em;
@@ -11,28 +11,32 @@
   margin: 0;
 }
 
+.languages i {
+  color: var(--text-muted);
+}
+
 select {
   background-color: transparent;
   border: none;
   width: auto;
   padding: 0;
-  color: var(--text-secondary);
+  color: var(--text-muted);
   font-size: 0.9em;
   padding: 0.2rem;
   border: none;
 }
 
-select:active {
+select {
   border: none;
+  outline: none;
 }
+
 select option {
   background-color: var(--bg-primary);
-  border: none;
   width: auto;
   padding: 0;
-  color: var(--text-secondary);
-  font-size: 0.9em;
-  padding: 1rem;
+  color: var(--text-muted);
+  font-size: 1em;
 }
 
 @media screen and (min-width: 768px) {

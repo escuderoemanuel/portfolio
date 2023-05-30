@@ -9,7 +9,7 @@ const Contact = () => {
     <section className='contact' id='contact'>
       <h3 className='titleContact' data-aos='fade-right' data-aos-delay='50'>
         {t('contact.title')}
-        <span> {t('contact.span-contact')}</span>
+        <span>{t('contact.span-contact')}</span>
       </h3>
       <div className='Luz5'></div>
       <div className='contact-content'>
@@ -62,8 +62,6 @@ const Contact = () => {
               data-aos-delay='400'>
               <textarea
                 id=''
-                /* cols='34'
-                rows='8' */
                 placeholder={t('contact.form.text-area')}
                 name='message'
                 required></textarea>

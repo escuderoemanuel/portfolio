@@ -25,7 +25,7 @@
         "id": 1,
         "img": "https://i.ibb.co/3S3366B/retroplace.jpg",
         "title": "RetroPlace Store",
-        "type": "Online Store",
+        "type": "Online store",
         "tools": "HTML, CSS, React Js, Firebase, Git, Toastify, Bootstrap...",
         "github": "https://github.com/escuderoemanuel/RetroPlaceStore",
         "deploy": "https://retro-place-store.vercel.app/"
@@ -43,7 +43,7 @@
         "id": 3,
         "img": "https://i.ibb.co/f0fGVQH/mahoarcaoltra.jpg",
         "title": "Maho Arca Oltra",
-        "type": "Static Personal Website",
+        "type": "Personal website",
         "tools": "HTML, CSS, Sass, JavaScript, Git, Seo...",
         "github": "https://github.com/escuderoemanuel/MahoArcaOltra",
         "deploy": "https://escuderoemanuel.github.io/MahoArcaOltra/"
@@ -52,7 +52,7 @@
         "id": 4,
         "img": "https://i.ibb.co/xsSBk8f/edguitars2.jpg",
         "title": "ED Guitars",
-        "type": "Static Website About Guitars",
+        "type": "Website about guitars",
         "tools": "HTML, CSS, Sass, Bootstrap, Git, Seo...",
         "github": "https://github.com/escuderoemanuel/EDGuitars",
         "deploy": "https://escuderoemanuel.github.io/EDGuitars/"
@@ -61,7 +61,7 @@
         "id": 5,
         "img": "https://i.ibb.co/5G9SXBW/florescastillo.jpg",
         "title": "F&C Accounting",
-        "type": "Static Personal Website",
+        "type": "Personal website",
         "tools": "HTML, CSS, Sass, Git, Seo...",
         "github": "https://github.com/escuderoemanuel/FC-AsesorasContables",
         "deploy": "https://escuderoemanuel.github.io/FC-AsesorasContables/"
@@ -71,7 +71,7 @@
         "img": "https://i.ibb.co/MhKbnn6/portfolio-AP.jpg",
         "title": "Editable Portfolio",
         "type": "Argentina Programa Project",
-        "tools": "HTML, CSS, TypeScript, Angular, Java, SpringBoot, MySQL, Firebase, Render, Clever Cloud, Git...",
+        "tools": "HTML, CSS, TypeScript, Angular, Firebase | Java, SpringBoot, Render | MySQL, Clever Cloud",
         "github": "https://github.com/escuderoemanuel/ArgentinaProgramaFrontend",
         "deploy": "https://portfoliofrontargprog.web.app/"
       }
@@ -80,58 +80,69 @@
   "skills": {
     "title": "Skills",
     "span-skills": "!",
-    "skills-list": {
+    "skillsList": {
       "skill-01": {
+        "id": 1,
         "title": "HTML",
         "img": "https://i.ibb.co/VH4bp5Y/html.png"
       },
       "skill-02": {
+        "id": 2,
         "title": "CSS",
         "img": "https://i.ibb.co/mDNKpgM/css.png"
       },
       "skill-03": {
+        "id": 3,
         "title": "SASS",
         "img": "https://i.ibb.co/n7gsyQ5/sass-icon-130835.png"
       },
       "skill-04": {
+        "id": 4,
         "title": "Bootstrap",
         "img": "https://i.ibb.co/TmwQPdB/bootstrap.png"
       },
       "skill-05": {
+        "id": 5,
         "title": "JavaScript",
         "img": "https://i.ibb.co/TW6ChMh/js.png"
       },
       "skill-06": {
+        "id": 6,
         "title": "TypeScript",
         "img": "https://i.ibb.co/VNbg3FV/typescript.png"
       },
       "skill-07": {
+        "id": 7,
         "title": "ReactJs",
         "img": "https://i.ibb.co/CHZkf9M/reactjs.png"
       },
       "skill-08": {
+        "id": 8,
         "title": "Angular",
         "img": "https://i.ibb.co/rQpw3fM/angular.png"
       },
       "skill-09": {
+        "id": 9,
         "title": "MySQL",
         "img": "https://i.ibb.co/mSRmnRV/mysql.png"
       },
       "skill-10": {
+        "id": 10,
         "title": "Git",
         "img": "https://i.ibb.co/5ByKx1H/Git.png"
       },
       "skill-11": {
+        "id": 11,
         "title": "SEO",
         "img": "https://i.ibb.co/Lh8yP9R/seo.png"
       },
-
       "skill-12": {
+        "id": 12,
         "title": "Java",
         "img": "https://i.ibb.co/NpF5Zxf/java.png"
       },
-
       "skill-13": {
+        "id": 13,
         "title": "Spring Boot",
         "img": "https://i.ibb.co/JH1kwQB/springboot.png"
       }

@@ -1,13 +1,19 @@
 import React from 'react';
 import './Portfolio.css';
 import { useTranslation } from 'react-i18next';
-import portfolioData from '../../../translations/en/global.json';
+import portfolioEn from '../../../translations/en/global.json';
+import portfolioEs from '../../../translations/es/global.json';
 
 const Portfolio = () => {
-  /* i18Next Translation */
+  // i18Next Translation
   const [t, i18n] = useTranslation('global');
 
-  const projectsList = portfolioData.portfolio['projects'];
+  // Obtener el lenguaje seleccionado
+  const currentLanguage = i18n.language;
+
+  // Obtener la lista de proyectos según el idioma actual utilizando destructuring
+  const { projects } =
+    currentLanguage === 'en' ? portfolioEn.portfolio : portfolioEs.portfolio;
 
   return (
     <section className='portfolio' id='portfolio'>
@@ -15,11 +21,12 @@ const Portfolio = () => {
         {t('portfolio.title')}
         <span>{t('portfolio.span-portfolio')}</span>
       </h3>
-      {/* Contenedor de los items projects */}
+      {/* Contenedor de los elementos del portfolio */}
       <div className='portfolio-content'>
-        {Object.values(projectsList).map((project, index) => (
+        {/* Utilizando 'id' como key */}
+        {Object.values(projects).map((project, id) => (
           <div
-            key={index}
+            key={id}
             className='cardPortfolio'
             data-aos='flip-left'
             data-aos-delay='350'>

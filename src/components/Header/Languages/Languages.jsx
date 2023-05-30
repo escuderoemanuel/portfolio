@@ -11,6 +11,7 @@ const Languages = () => {
 
   return (
     <div className='languages'>
+      <i className='bx bx-world'></i>
       <select
         className='langSelected'
         onChange={(e) => handleChangeLanguage(e.target.value)}>
