@@ -54,7 +54,7 @@
   transition: all 0.5s;
   cursor: pointer;
   position: relative;
-  right: 0px;
+  /* right: 0px; */
 }
 
 /* Estado Original */
