@@ -47,7 +47,7 @@ const Home = () => {
           <p className='description'>{t('home.about')}</p>
           <div className='divSocial'>
             <a
-              href='https://www.linkedin.com/in/emanuel-escudero-657675b7/'
+              href='https://www.linkedin.com/in/emanuelescudero/'
               target='_blank'
               rel='noopener noreferrer'>
               <i className='iSocial bx bxl-linkedin bx-border-circle bx-sm'></i>
