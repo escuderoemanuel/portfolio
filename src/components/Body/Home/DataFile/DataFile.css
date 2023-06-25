@@ -146,6 +146,5 @@
 @media (min-width: 1200px) {
   .float-window {
     min-width: 450px;
-    margin-top: 2rem;
   }
 }

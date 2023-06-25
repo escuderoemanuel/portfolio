@@ -28,46 +28,48 @@ const Home = () => {
   });
 
   return (
-    <div className='home' id='home' data-aos='zoom-in' data-aos-delay='350'>
-      <div className='home-content'>
-        <div className='title-container'>
-          <div className='title-home'>
-            <p>{t('home.title-home')}</p>
-            <h1>Emanuel Escudero</h1>
+    <section className='home' id='home' data-aos='zoom-in' data-aos-delay='350'>
+      <div className='home-container'>
+        <div className='home-content'>
+          <div className='title-container'>
+            <div className='title-home'>
+              <p>{t('home.title-home')}</p>
+              <h1>Emanuel Escudero</h1>
+            </div>
+            <div className='text-animate'>
+              <h3 className='subtitle-home'>
+                FrontEnd<span>&nbsp;Developer</span>!
+              </h3>
+            </div>
           </div>
-          <div className='text-animate'>
-            <h3 className='subtitle-home'>
-              FrontEnd<span>&nbsp;Developer</span>!
-            </h3>
+          <p className='description'>{t('home.about')}</p>
+          <div className='divSocial'>
+            <a
+              href='https://www.linkedin.com/in/emanuel-escudero-657675b7/'
+              target='_blank'
+              rel='noopener noreferrer'>
+              <i className='iSocial bx bxl-linkedin bx-border-circle bx-sm'></i>
+            </a>
+
+            <a
+              href='https://github.com/escuderoemanuel'
+              target='_blank'
+              rel='noopener noreferrer'>
+              <i className='iSocial bx bxl-github bx-border-circle bx-sm'></i>
+            </a>
+
+            <a
+              href='https://wa.me/5492612061160'
+              target='_blank'
+              rel='noopener noreferrer'>
+              <i className='iSocial bx bxl-whatsapp bx-border-circle bx-sm'></i>
+            </a>
           </div>
         </div>
-        <p className='description'>{t('home.about')}</p>
-        <div className='divSocial'>
-          <a
-            href='https://www.linkedin.com/in/emanuel-escudero-657675b7/'
-            target='_blank'
-            rel='noopener noreferrer'>
-            <i className='iSocial bx bxl-linkedin bx-border-circle bx-sm'></i>
-          </a>
 
-          <a
-            href='https://github.com/escuderoemanuel'
-            target='_blank'
-            rel='noopener noreferrer'>
-            <i className='iSocial bx bxl-github bx-border-circle bx-sm'></i>
-          </a>
-
-          <a
-            href='https://wa.me/5492612061160'
-            target='_blank'
-            rel='noopener noreferrer'>
-            <i className='iSocial bx bxl-whatsapp bx-border-circle bx-sm'></i>
-          </a>
-        </div>
+        <DataFile></DataFile>
       </div>
-
-      <DataFile></DataFile>
-    </div>
+    </section>
   );
 };
 
