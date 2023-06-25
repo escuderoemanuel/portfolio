@@ -1,19 +1,16 @@
 .header {
-  margin: 0;
-  padding: 0;
   position: fixed;
   top: 0;
-  width: 100%;
-  max-width: 1280px;
+  min-width: 100%;
   z-index: 999;
 }
 
 .header-principal {
   max-width: 95%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
   padding: 0.7rem 2rem;
   position: relative;
   border-bottom: 1px solid var(--text-secondary);
@@ -29,14 +26,15 @@
   .header-principal {
     justify-content: space-between;
     align-items: center;
-    margin: auto;
     position: relative;
     max-width: 90%;
+    margin: auto;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1300px) {
   .header-principal {
-    max-width: 80%;
+    max-width: 1280px;
+    margin: auto;
   }
 }
