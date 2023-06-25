@@ -29,6 +29,7 @@ const Home = () => {
 
   return (
     <section className='home' id='home' data-aos='zoom-in' data-aos-delay='350'>
+      <div className='Luz1a'></div>
       <div className='home-container'>
         <div className='home-content'>
           <div className='title-container'>

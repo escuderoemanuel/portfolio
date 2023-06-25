@@ -5,8 +5,7 @@
   padding: 1rem;
   position: relative;
   z-index: 100;
-  margin-top: -60px;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 .titlePortfolio {
@@ -166,7 +165,7 @@ a {
 
 @media (min-width: 768px) {
   .portfolio {
-    margin: 0rem 2rem;
+    padding: 60px 2rem 0rem;
     max-width: 1280px;
     margin: auto;
   }

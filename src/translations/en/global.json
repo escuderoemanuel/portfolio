@@ -21,6 +21,14 @@
     "title": "Portfolio",
     "span-portfolio": "!",
     "projects": {
+      "project-00": {
+        "img": "https://i.ibb.co/G2pHdk6/BiMar.jpg",
+        "title": "BiM.ar",
+        "type": "Real Project",
+        "tools": "React, JavaScript, HTML, CSS, Vercel",
+        "github": "https://github.com/escuderoemanuel/bim-ar",
+        "deploy": "https://bim-ar.vercel.app/"
+      },
       "project-01": {
         "id": 1,
         "img": "https://i.ibb.co/3S3366B/retroplace.jpg",

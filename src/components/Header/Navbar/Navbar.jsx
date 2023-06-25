@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { useTranslation } from 'react-i18next';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
   /* i18Next Translation */
@@ -9,7 +10,7 @@ const Navbar = () => {
   /* Estado Inicial de la visibilidad de la navbar con UseState */
   const [isNavVisible, setIsNavVisible] = useState(false);
   /* Estado Inicial de la section activa con UseState */
-  const [activeSection, setActiveSection] = useState('home');
+  const [activeSection, setActiveSection] = useState('');
   /* Estado Inicial de las line de Toggle */
   const [isActive, setIsActive] = useState(false);
   /* Setea el estado de navbar por defecto 'navbar' y dependiendo del estado de visibilidad es 'visible' o 'hidden'  */
@@ -30,6 +31,32 @@ const Navbar = () => {
     setIsActive(false);
   };
 
+  const [isScrolling, setIsScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolling(true);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    const handleWindowsLoad = () => {
+      scroll.scrollToTop({ duration: 500 });
+    };
+
+    window.addEventListener('load', handleWindowsLoad);
+
+    return () => {
+      window.removeEventListener('load', handleWindowsLoad);
+    };
+  }, []);
+
   return (
     <>
       <div
@@ -40,36 +67,46 @@ const Navbar = () => {
         <span className='line'></span>
       </div>
       <nav className={navbarClass} id='navbar'>
-        <a
-          className={`navbar-link ${activeSection === 'home' ? 'active' : ''}`}
-          href='#home'
+        <Link
+          className={`navbar-link ${
+            activeSection === 'home' && !isScrolling ? 'active' : ''
+          }`}
+          to='home'
+          spy={true}
+          offset={-60}
           onClick={() => handleLinkClick('home')}>
           {t('navbar.link-1')}
-        </a>
-        <a
+        </Link>
+        <Link
           className={`navbar-link ${
-            activeSection === 'portfolio' ? 'active' : ''
+            activeSection === 'portfolio' && !isScrolling ? 'active' : ''
           }`}
-          href='#portfolio'
+          to='portfolio'
+          spy={true}
+          offset={-30}
           onClick={() => handleLinkClick('portfolio')}>
           {t('navbar.link-2')}
-        </a>
-        <a
+        </Link>
+        <Link
           className={`navbar-link ${
-            activeSection === 'skills' ? 'active' : ''
+            activeSection === 'skills' && !isScrolling ? 'active' : ''
           }`}
-          href='#skills'
+          to='skills'
+          spy={true}
+          offset={-30}
           onClick={() => handleLinkClick('skills')}>
           {t('navbar.link-3')}
-        </a>
-        <a
+        </Link>
+        <Link
           className={`navbar-link ${
-            activeSection === 'contact' ? 'active' : ''
+            activeSection === 'contact' && !isScrolling ? 'active' : ''
           }`}
-          href='#contact'
+          to='contact'
+          spy={true}
+          offset={-30}
           onClick={() => handleLinkClick('contact')}>
           {t('navbar.link-4')}
-        </a>
+        </Link>
       </nav>
     </>
   );
