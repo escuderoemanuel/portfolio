@@ -25,6 +25,7 @@
   background-color: var(--bg-primary-tr);
   height: 200px;
   width: 200px;
+  justify-content: space-around;
 }
 
 .navbar .navbar-link {
@@ -67,23 +68,27 @@
   transition: transform 0.5s;
 }
 
-.toggle:hover .line:nth-child(1) {
+.toggle .line:nth-child(1) {
+  transform: scaleX(0.95);
+}
+.toggle .line:nth-child(2) {
   transform: scaleX(0.8);
 }
-.toggle:hover .line:nth-child(2) {
-  transform: scaleX(0.5);
-}
-.toggle:hover .line:nth-child(3) {
-  transform: scaleX(0.8);
+.toggle .line:nth-child(3) {
+  transform: scaleX(0.95);
 }
 
 .toggle.active .line:nth-child(1) {
-  transform: translateY(7.5px) scaleX(0.9) scaleY(1.1) rotate(150deg);
+  transform: translateY(7.5px) scaleX(0.9) scaleY(0.7) rotate(130deg);
+  height: 3px;
+  width: 25px;
   background-color: var(--text-secondary);
 }
 
 .toggle.active .line:nth-child(3) {
-  transform: translateY(-7.5px) scaleX(0.9) scaleY(1.1) rotate(30deg);
+  transform: translateY(-7.5px) scaleX(0.9) scaleY(0.7) rotate(50deg);
+  height: 3px;
+  width: 25px;
   background-color: var(--text-secondary);
 }
 

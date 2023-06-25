@@ -10,7 +10,7 @@ const Navbar = () => {
   /* Estado Inicial de la visibilidad de la navbar con UseState */
   const [isNavVisible, setIsNavVisible] = useState(false);
   /* Estado Inicial de la section activa con UseState */
-  const [activeSection, setActiveSection] = useState('');
+  const [activeSection, setActiveSection] = useState('home');
   /* Estado Inicial de las line de Toggle */
   const [isActive, setIsActive] = useState(false);
   /* Setea el estado de navbar por defecto 'navbar' y dependiendo del estado de visibilidad es 'visible' o 'hidden'  */
@@ -73,7 +73,7 @@ const Navbar = () => {
           }`}
           to='home'
           spy={true}
-          offset={-60}
+          offset={-20}
           onClick={() => handleLinkClick('home')}>
           {t('navbar.link-1')}
         </Link>
@@ -83,7 +83,7 @@ const Navbar = () => {
           }`}
           to='portfolio'
           spy={true}
-          offset={-30}
+          offset={-20}
           onClick={() => handleLinkClick('portfolio')}>
           {t('navbar.link-2')}
         </Link>
@@ -93,7 +93,7 @@ const Navbar = () => {
           }`}
           to='skills'
           spy={true}
-          offset={-30}
+          offset={-20}
           onClick={() => handleLinkClick('skills')}>
           {t('navbar.link-3')}
         </Link>
@@ -103,7 +103,7 @@ const Navbar = () => {
           }`}
           to='contact'
           spy={true}
-          offset={-30}
+          offset={-20}
           onClick={() => handleLinkClick('contact')}>
           {t('navbar.link-4')}
         </Link>
