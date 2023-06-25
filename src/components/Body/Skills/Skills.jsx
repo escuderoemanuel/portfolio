@@ -17,6 +17,7 @@ const Skills = () => {
 
   return (
     <section className='skills' id='skills'>
+      <div className='Luz4'></div>
       <h3 className='titleSkills' data-aos='fade-left' data-aos-delay='50'>
         {t('skills.title')}
         <span>{t('skills.span-skills')}</span>

@@ -95,3 +95,26 @@ li {
     margin: 4rem 8rem 0rem;
   }
 }
+
+.Luz4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.Luz4::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 1px;
+  height: 1px;
+  color: transparent;
+  border-radius: 50%;
+  box-shadow: 0 0 160px 150px rgba(12, 45, 107, 0.4);
+  background-color: transparent;
+}

@@ -33,6 +33,7 @@ const Home = () => {
         <div className='home-content'>
           <div className='title-container'>
             <div className='title-home'>
+              <div className='Luz1'></div>
               <p>{t('home.title-home')}</p>
               <h1>Emanuel Escudero</h1>
             </div>

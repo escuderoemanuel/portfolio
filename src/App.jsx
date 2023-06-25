@@ -11,10 +11,6 @@ function App() {
   return (
     <>
       <Header></Header>
-      <LuzBg className={'Luz1'}></LuzBg>
-      <LuzBg className={'Luz2'}></LuzBg>
-      <LuzBg className={'Luz3'}></LuzBg>
-      <LuzBg className={'Luz4'}></LuzBg>
       <Home></Home>
       <Portfolio></Portfolio>
       <Skills></Skills>

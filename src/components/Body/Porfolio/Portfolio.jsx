@@ -17,6 +17,8 @@ const Portfolio = () => {
 
   return (
     <section className='portfolio' id='portfolio'>
+      <div className='Luz2'></div>
+      <div className='Luz3'></div>
       <h3 className='titlePortfolio' data-aos='fade-left' data-aos-delay='50'>
         {t('portfolio.title')}
         <span>{t('portfolio.span-portfolio')}</span>
