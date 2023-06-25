@@ -160,7 +160,7 @@
     align-items: start;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 2rem 0rem;
+    padding: 120px 2rem 0rem;
     margin-bottom: 0;
   }
 
@@ -213,7 +213,7 @@
 @media (min-width: 1024px) {
   /* General */
   .home {
-    padding: 100px 6rem 4rem;
+    padding: 150px 6rem 4rem;
   }
 
   .home-content {
@@ -258,17 +258,19 @@
 @media (min-width: 1200px) {
   /* General */
   .home {
-    padding: 100px 6rem 0;
+    padding: 150px 6rem 0;
     z-index: 100;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 2rem;
   }
 
   .home-container {
     max-width: 1280px;
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .home-content {

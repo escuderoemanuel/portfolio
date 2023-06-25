@@ -17,7 +17,7 @@
   color: var(--text-bright);
   margin-bottom: 2rem;
   align-self: flex-start;
-  margin-left: 4rem;
+  margin-left: 2rem;
 }
 
 .titleSkills span {
@@ -80,10 +80,14 @@ li {
 
 @media (min-width: 768px) {
   .skills {
-    padding: 60px 2rem 0rem;
+    padding: 100px 2rem 0rem;
     max-width: 1280px;
     margin: auto;
-    margin-top: -60;
+    margin-top: -100;
+  }
+
+  .titleSkills {
+    margin-left: 4rem;
   }
 
   .skills-content,

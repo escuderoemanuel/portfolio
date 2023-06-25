@@ -108,7 +108,7 @@
     position: relative;
     top: -1px;
     width: auto;
-    height: auto;
+    height: 60px;
   }
 
   .navbar .navbar-link {

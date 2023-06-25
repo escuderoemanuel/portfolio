@@ -6,13 +6,12 @@
   width: auto;
   position: absolute;
   right: 90px;
-  font-size: 0.9em;
   padding: 0;
   margin: 0;
 }
 
 .languages i {
-  color: var(--text-muted);
+  color: var(--text-secondary);
 }
 
 select {
@@ -44,5 +43,13 @@ select option {
     position: relative;
     right: 0;
     top: 0;
+  }
+
+  select {
+    font-size: 1.2em;
+  }
+
+  .languages i {
+    font-size: 22px;
   }
 }
