@@ -83,16 +83,7 @@ li {
 @media (min-width: 768px) {
   .skills {
     margin: 2rem 2rem 0rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .skills-content {
-    row-gap: 3rem;
-  }
-
-  .skills {
-    margin: 4rem 8rem 0rem;
+    max-width: 1280px;
   }
 }
 
