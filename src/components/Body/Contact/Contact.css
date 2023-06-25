@@ -169,20 +169,11 @@ textarea {
 @media (min-width: 768px) {
   .contact {
     margin: 2rem 2rem 0rem;
+    max-width: 1280px;
   }
 
   .contact-content {
     max-width: 900px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .contact {
-    margin: 4rem 8rem 0rem;
-  }
-
-  .contact-content {
-    row-gap: 3rem;
   }
 }
 
