@@ -160,5 +160,12 @@
       "text-area": "Tu Mensaje",
       "button": "Enviar"
     }
+  },
+  "footer": {
+    "paragraph": "[ Desarrollado por Emanuel Escudero ]",
+    "img": {
+      "url": "https://i.ibb.co/ZT13Snc/Logo2023.png",
+      "alt": "Developer Logo"
+    }
   }
 }

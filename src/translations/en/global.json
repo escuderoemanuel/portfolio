@@ -164,7 +164,14 @@
       "email": "E-mail Address",
       "mobile-number": "Mobile Number",
       "text-area": "Your Message",
-      "button": "Submit"
+      "button": "Send"
+    }
+  },
+  "footer": {
+    "paragraph": "[ Developed by Emanuel Escudero ]",
+    "img": {
+      "url": "https://i.ibb.co/ZT13Snc/Logo2023.png",
+      "alt": "Developer Logo"
     }
   }
 }

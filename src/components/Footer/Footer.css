@@ -14,7 +14,7 @@
 .footerContainer {
   height: 100%;
   width: 80%;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 1px solid var(--text-secondary-tr);
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@
 }
 
 .footerContainer p {
-  margin: 0.2rem;
+  margin: 0.2rem 0rem 0.5rem;
   font-weight: lighter;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -32,7 +32,7 @@
 @media screen and (min-width: 768px) {
   .footer {
     max-width: 1280px;
-    margin: 4rem auto 1rem;
+    margin: 4rem auto 0rem;
   }
 }
 
