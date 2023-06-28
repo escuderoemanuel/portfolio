@@ -7,14 +7,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
   z-index: 100;
 }
 
 .footerContainer {
   height: 100%;
   width: 80%;
-  padding: 1rem 0;
+  padding: 2rem 0;
   border-top: 1px solid var(--text-secondary-tr);
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@
 }
 
 .footerContainer p {
-  margin: 0.2rem 0rem 0.5rem;
+  margin-bottom: 1rem;
   font-weight: lighter;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
