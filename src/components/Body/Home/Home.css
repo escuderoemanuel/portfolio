@@ -68,7 +68,7 @@
   font-weight: 400;
 }
 
-.subtitle-home {
+.subtitle-home-en {
   margin-top: 0.5rem;
   font-size: 1.6em;
   align-items: end;
@@ -83,11 +83,38 @@
   white-space: nowrap;
   border-right: 3px solid var(--text-secondary);
   width: 18ch;
-  animation: typing 6s steps(18) infinite, blink 1s infinite;
+  animation: typing-en 6s steps(18) infinite, blink 1s infinite;
   overflow: hidden;
 }
 
-@keyframes typing {
+.subtitle-home-en-display {
+  display: none;
+}
+
+.subtitle-home-es {
+  margin-top: 0.5rem;
+  font-size: 1.6em;
+  align-items: end;
+  justify-content: end;
+  text-align: end;
+  color: var(--text-secondary);
+  font-family: 'Consolas';
+  letter-spacing: -1px;
+  position: relative;
+  margin-bottom: 1.5rem;
+  display: block;
+  white-space: nowrap;
+  border-right: 3px solid var(--text-secondary);
+  width: 22ch;
+  animation: typing-es 6s steps(22) infinite, blink 1s infinite;
+  overflow: hidden;
+}
+
+.subtitle-home-es-display {
+  display: none;
+}
+
+@keyframes typing-en {
   0% {
     width: 0;
   }
@@ -105,6 +132,22 @@
 @keyframes blink {
   50% {
     border: transparent;
+  }
+}
+
+/* ES */
+@keyframes typing-es {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 22ch;
+  }
+  80% {
+    width: 22ch;
+  }
+  100% {
+    width: 0;
   }
 }
 

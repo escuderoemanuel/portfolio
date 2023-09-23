@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 const Home = () => {
   /* i18Next Translation */
   const [t, i18n] = useTranslation('global');
+  const isEnglish = i18n.language === 'en';
 
   document.addEventListener('DOMContentLoaded', function () {
     let homeSection = document.getElementById('home');
@@ -39,8 +40,17 @@ const Home = () => {
               <h1>Emanuel Escudero</h1>
             </div>
             <div className='text-animate'>
-              <h3 className='subtitle-home'>
+              <h3
+                className={`subtitle-home subtitle-home-en ${
+                  isEnglish ? '' : 'subtitle-home-en-display'
+                }`}>
                 FrontEnd<span>&nbsp;Developer</span>!
+              </h3>
+              <h3
+                className={`subtitle-home subtitle-home-es ${
+                  isEnglish ? 'subtitle-home-es-display' : ''
+                }`}>
+                Desarrollador<span>&nbsp;FrontEnd</span>!
               </h3>
             </div>
           </div>
