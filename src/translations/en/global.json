@@ -12,10 +12,11 @@
       "normal": "Developer",
       "signo": "!"
     },
-    "about": "I invite you to learn about the projects I've worked on recently and see the progress I've made in my training as a programmer. I look forward to being part of a committed team, with which to face new challenges and from which to continue learning!",
+    "about": "I invite you to learn about the projects I have recently worked on. Do not hesitate to contact me to carry out your project, work together or send me a proposal.\nI am always eager to face new challenges!",
     "window-float": {
       "paragraph": "I am Emanuel, a dedicated and enthusiastic developer. I invite you to download and read my CV."
-    }
+    },
+    "btn-download": "downloadCV!"
   },
   "portfolio": {
     "title": "Portfolio",
@@ -25,7 +26,7 @@
         "img": "https://i.ibb.co/G2pHdk6/BiMar.jpg",
         "title": "BiM.ar",
         "type": "Real Project",
-        "tools": "React, JavaScript, HTML, CSS, Vercel",
+        "tools": "React, Vite, JavaScript, HTML, CSS, Vercel, BoxIcons, Fontawesome",
         "github": "https://github.com/escuderoemanuel/bim-ar",
         "deploy": "https://bim-ar.vercel.app/"
       },
@@ -33,12 +34,30 @@
         "id": 1,
         "img": "https://i.ibb.co/3S3366B/retroplace.jpg",
         "title": "RetroPlace Store",
-        "type": "Online store",
-        "tools": "HTML, CSS, React Js, Firebase, Git, Toastify, Bootstrap...",
+        "type": "Online Store",
+        "tools": "ReactJs, Vite, Firebase, Git,Toastify, Bootstrap...",
         "github": "https://github.com/escuderoemanuel/RetroPlaceStore",
         "deploy": "https://retro-place-store.vercel.app/"
       },
       "project-02": {
+        "id": 2,
+        "img": "https://i.ibb.co/cvCS1ZF/Movie-Search.jpg",
+        "title": "MovieSearch!",
+        "type": "Movies Web App",
+        "tools": "ReactJS, React-YouTube, Axios, Vite, TMDB API, Netflify...",
+        "github": "https://github.com/escuderoemanuel/MovieSearch",
+        "deploy": "https://emanuel-moviesearch.netlify.app/"
+      },
+      "project-03": {
+        "id": 2,
+        "img": "https://i.ibb.co/4dRb00b/Weather-App.png",
+        "title": "Weather App",
+        "type": "Weather Web App",
+        "tools": "React, Vite, Weather API, Bootstrap, Netflify...",
+        "github": "https://github.com/escuderoemanuel/WeatherApp",
+        "deploy": "https://emanuel-weatherapp.netlify.app/"
+      },
+      "project-04": {
         "id": 2,
         "img": "https://i.ibb.co/dprm1cR/kprem.jpg",
         "title": "KPREM Arte Gráfico",
@@ -47,7 +66,7 @@
         "github": "https://github.com/escuderoemanuel/KPREM-ArteGrafico",
         "deploy": "https://escuderoemanuel.github.io/KPREM-ArteGrafico/"
       },
-      "project-03": {
+      "project-05": {
         "id": 3,
         "img": "https://i.ibb.co/f0fGVQH/mahoarcaoltra.jpg",
         "title": "Maho Arca Oltra",
@@ -56,7 +75,7 @@
         "github": "https://github.com/escuderoemanuel/MahoArcaOltra",
         "deploy": "https://escuderoemanuel.github.io/MahoArcaOltra/"
       },
-      "project-04": {
+      "project-06": {
         "id": 4,
         "img": "https://i.ibb.co/xsSBk8f/edguitars2.jpg",
         "title": "ED Guitars",
@@ -65,7 +84,7 @@
         "github": "https://github.com/escuderoemanuel/EDGuitars",
         "deploy": "https://escuderoemanuel.github.io/EDGuitars/"
       },
-      "project-05": {
+      "project-07": {
         "id": 5,
         "img": "https://i.ibb.co/5G9SXBW/florescastillo.jpg",
         "title": "F&C Accounting",
@@ -74,7 +93,7 @@
         "github": "https://github.com/escuderoemanuel/FC-AsesorasContables",
         "deploy": "https://escuderoemanuel.github.io/FC-AsesorasContables/"
       },
-      "project-06": {
+      "project-08": {
         "id": 6,
         "img": "https://i.ibb.co/MhKbnn6/portfolio-AP.jpg",
         "title": "Editable Portfolio",

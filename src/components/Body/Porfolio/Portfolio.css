@@ -101,7 +101,7 @@ a {
 }
 
 /* BTN */
-.btn-content {
+.portfolio .btn-content {
   position: relative;
   bottom: 0;
   width: 100%;
@@ -159,7 +159,7 @@ a {
   margin: 0;
 }
 
-.btn-content i {
+.portfolio .btn-content i {
   color: var(--text-secondary);
 }
 
@@ -217,7 +217,7 @@ a {
   }
 
   /* BTN */
-  .btn-content {
+  .portfolio .btn-content {
     position: relative;
     bottom: 0;
     width: 100%;

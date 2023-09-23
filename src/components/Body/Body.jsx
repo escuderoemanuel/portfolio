@@ -1,4 +1,3 @@
-import './Body.css';
 import Contact from './Contact/Contact';
 import Home from './Home/Home';
 import Portfolio from './Porfolio/Portfolio';

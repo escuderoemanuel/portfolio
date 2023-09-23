@@ -54,7 +54,7 @@ const Home = () => {
               </h3>
             </div>
           </div>
-          <p className='description'>{t('home.about')}</p>
+          <p className='description wrap'>{t('home.about')}</p>
           <div className='divSocial'>
             <a
               href='https://www.linkedin.com/in/emanuelescudero/'

@@ -34,3 +34,7 @@
 
   --form-placeholder: #a9a9a9;
 }
+
+.wrap {
+  white-space: pre-wrap;
+}

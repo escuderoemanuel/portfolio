@@ -2,7 +2,6 @@
 .btn {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   text-align: center;
   margin: 1.2rem;
@@ -22,8 +21,6 @@
 }
 
 .btn p {
-  display: flex;
-  width: 100%;
   padding: 0;
   margin: 0;
   letter-spacing: -1px;
