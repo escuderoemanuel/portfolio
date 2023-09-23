@@ -40,7 +40,7 @@
       },
       "project-02": {
         "id": 2,
-        "img": "https://i.ibb.co/cvCS1ZF/Movie-Search.jpg",
+        "img": "https://i.ibb.co/3hBSSRq/Movie-Search.jpg",
         "title": "MovieSearch!",
         "type": "Aplicación de Películas",
         "tools": "ReactJS, React-YouTube, Axios, Vite, TMDB API, Netflify...",
@@ -49,7 +49,7 @@
       },
       "project-03": {
         "id": 2,
-        "img": "https://i.ibb.co/4dRb00b/Weather-App.png",
+        "img": "https://i.ibb.co/LNMzZ1X/Weather-App.jpg",
         "title": "Weather App",
         "type": "Aplicación del Clima",
         "tools": "React, Vite, Weather API, Bootstrap, Netflify...",
