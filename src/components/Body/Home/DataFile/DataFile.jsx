@@ -15,7 +15,7 @@ const DataFile = () => {
         />
       </div>
       <a
-        href='https://drive.google.com/file/d/1C5ml0eUqytxNZW5x6JSca5TYZDog2P4L/view?usp=sharing'
+        href='https://drive.google.com/file/d/1ZzN5btgB9pNvdBEOntiG3n1FrHos1xge/view?usp=sharing'
         target='_blank'
         download='EmanuelEscuderoFrontendDeveloperCV.pdf'
         rel='noopener noreferrer'>
