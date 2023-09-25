@@ -23,6 +23,7 @@
     "span-portfolio": "!",
     "projects": {
       "project-00": {
+        "id": 0,
         "img": "https://i.ibb.co/G2pHdk6/BiMar.jpg",
         "title": "BiM.ar",
         "type": "Real Project",
@@ -49,7 +50,7 @@
         "deploy": "https://emanuel-moviesearch.netlify.app/"
       },
       "project-03": {
-        "id": 2,
+        "id": 3,
         "img": "https://i.ibb.co/LNMzZ1X/Weather-App.jpg",
         "title": "Weather App",
         "type": "Weather Web App",
@@ -58,7 +59,16 @@
         "deploy": "https://emanuel-weatherapp.netlify.app/"
       },
       "project-04": {
-        "id": 2,
+        "id": 4,
+        "img": "https://i.ibb.co/fC1S7LX/Project-Poster.jpg",
+        "title": "Noughts & Croses",
+        "type": "Game Online",
+        "tools": "ReactJS, HTML, CSS, JavaScrit, Git, Netflify...",
+        "github": "https://github.com/escuderoemanuel/Noughts-Crosses",
+        "deploy": "https://emanuel-noughtscrossesgame.netlify.app/"
+      },
+      "project-05": {
+        "id": 5,
         "img": "https://i.ibb.co/dprm1cR/kprem.jpg",
         "title": "KPREM Arte Gráfico",
         "type": "Online store",
@@ -66,8 +76,9 @@
         "github": "https://github.com/escuderoemanuel/KPREM-ArteGrafico",
         "deploy": "https://escuderoemanuel.github.io/KPREM-ArteGrafico/"
       },
-      "project-05": {
-        "id": 3,
+
+      "project-06": {
+        "id": 6,
         "img": "https://i.ibb.co/f0fGVQH/mahoarcaoltra.jpg",
         "title": "Maho Arca Oltra",
         "type": "Personal website",
@@ -75,8 +86,8 @@
         "github": "https://github.com/escuderoemanuel/MahoArcaOltra",
         "deploy": "https://escuderoemanuel.github.io/MahoArcaOltra/"
       },
-      "project-06": {
-        "id": 4,
+      "project-07": {
+        "id": 7,
         "img": "https://i.ibb.co/xsSBk8f/edguitars2.jpg",
         "title": "ED Guitars",
         "type": "Website about guitars",
@@ -84,8 +95,8 @@
         "github": "https://github.com/escuderoemanuel/EDGuitars",
         "deploy": "https://escuderoemanuel.github.io/EDGuitars/"
       },
-      "project-07": {
-        "id": 5,
+      "project-08": {
+        "id": 8,
         "img": "https://i.ibb.co/5G9SXBW/florescastillo.jpg",
         "title": "F&C Accounting",
         "type": "Personal website",
@@ -93,8 +104,8 @@
         "github": "https://github.com/escuderoemanuel/FC-AsesorasContables",
         "deploy": "https://escuderoemanuel.github.io/FC-AsesorasContables/"
       },
-      "project-08": {
-        "id": 6,
+      "project-09": {
+        "id": 9,
         "img": "https://i.ibb.co/MhKbnn6/portfolio-AP.jpg",
         "title": "Editable Portfolio",
         "type": "Argentina Programa Project",
