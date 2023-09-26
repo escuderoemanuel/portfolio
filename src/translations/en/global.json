@@ -60,8 +60,8 @@
       },
       "project-04": {
         "id": 4,
-        "img": "https://i.ibb.co/Xxs0Wq8/Project-Poster.jpg",
-        "title": "TaTeTi vs Machine",
+        "img": "https://i.ibb.co/TkCQBc1/Project-Poster.jpg",
+        "title": "TaTeTi Multiplayer",
         "type": "Game Online",
         "tools": "ReactJS, HTML, CSS, JavaScrit, Git, Netflify...",
         "github": "https://github.com/escuderoemanuel/TatetiVsMachine",
