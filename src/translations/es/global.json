@@ -35,7 +35,7 @@
         "id": 1,
         "img": "https://i.ibb.co/3S3366B/retroplace.jpg",
         "title": "RetroPlace Store",
-        "type": "Tienda en línea",
+        "type": "Tienda en Línea",
         "tools": "ReactJs, Vite, Firebase, Git,Toastify, Bootstrap...",
         "github": "https://github.com/escuderoemanuel/RetroPlaceStore",
         "deploy": "https://retro-place-store.vercel.app/"
@@ -71,7 +71,7 @@
         "id": 5,
         "img": "https://i.ibb.co/dprm1cR/kprem.jpg",
         "title": "KPREM Arte Gráfico",
-        "type": "Tienda en línea",
+        "type": "Tienda en Línea",
         "tools": "HTML, CSS, JavaScrit Vanilla, Sass, Git, Seo...",
         "github": "https://github.com/escuderoemanuel/KPREM-ArteGrafico",
         "deploy": "https://escuderoemanuel.github.io/KPREM-ArteGrafico/"
@@ -80,7 +80,7 @@
         "id": 6,
         "img": "https://i.ibb.co/f0fGVQH/mahoarcaoltra.jpg",
         "title": "Maho Arca Oltra",
-        "type": "Página personal",
+        "type": "Página Personal",
         "tools": "HTML, CSS, Sass, JavaScript, Git, Seo...",
         "github": "https://github.com/escuderoemanuel/MahoArcaOltra",
         "deploy": "https://escuderoemanuel.github.io/MahoArcaOltra/"
@@ -89,7 +89,7 @@
         "id": 7,
         "img": "https://i.ibb.co/xsSBk8f/edguitars2.jpg",
         "title": "ED Guitars",
-        "type": "Sitio sobre guitarras",
+        "type": "Sitio sobre Guitarras",
         "tools": "HTML, CSS, Sass, Bootstrap, Git, Seo...",
         "github": "https://github.com/escuderoemanuel/EDGuitars",
         "deploy": "https://escuderoemanuel.github.io/EDGuitars/"
@@ -98,7 +98,7 @@
         "id": 8,
         "img": "https://i.ibb.co/5G9SXBW/florescastillo.jpg",
         "title": "F&C Contabilidad",
-        "type": "Página personal",
+        "type": "Página Personal",
         "tools": "HTML, CSS, Sass, Git, Seo...",
         "github": "https://github.com/escuderoemanuel/FC-AsesorasContables",
         "deploy": "https://escuderoemanuel.github.io/FC-AsesorasContables/"
