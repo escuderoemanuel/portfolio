@@ -12,7 +12,7 @@ const Logo = () => {
     <img
       className='logo'
       id='logo'
-      src='/assets/img/dev/Logo2023.png'
+      src='https://i.ibb.co/Gxk0ktL/Logo2024.png'
       alt='Developer Logotype'
       onClick={handleScrollToTop}
     />
