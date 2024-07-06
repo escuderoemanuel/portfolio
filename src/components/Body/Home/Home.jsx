@@ -48,7 +48,7 @@ const Home = () => {
               <h3
                 className={`subtitle-home subtitle-home-es ${isEnglish ? 'subtitle-home-es-display' : ''
                   }`}>
-                {t('home.subtitle-home.normal')}<span>{t('home.subtitle-home.span')}</span>{t('home.subtitle-home.signo')}
+                {t('home.subtitle-home.span')}<span>&nbsp;{t('home.subtitle-home.normal')}</span>{t('home.subtitle-home.signo')}
               </h3>
             </div>
           </div>
