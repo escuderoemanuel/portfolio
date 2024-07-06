@@ -23,6 +23,7 @@
     "span-portfolio": "!",
     "projects": {
       "project-00": {
+        "id": 0,
         "img": "https://i.ibb.co/G2pHdk6/BiMar.jpg",
         "title": "BiM.ar",
         "type": "Real Project",
@@ -32,6 +33,15 @@
       },
       "project-01": {
         "id": 1,
+        "img": "https://i.ibb.co/MkxxwDP/Node-Js-Ecommerce.jpg",
+        "title": "NodeJs Ecommerce",
+        "type": "FullStack Project",
+        "tools": "NodeJS, ExpressJS, MongoDB, Handlebars, JWT, CSS, Render, Multer, BCrypt",
+        "github": "https://github.com/escuderoemanuel/NodeJsEcommerce",
+        "deploy": "https://nodejsecommerce-8f7b.onrender.com"
+      },
+      "project-02": {
+        "id": 2,
         "img": "https://i.ibb.co/3S3366B/retroplace.jpg",
         "title": "RetroPlace Store",
         "type": "Online Store",
@@ -39,8 +49,8 @@
         "github": "https://github.com/escuderoemanuel/RetroPlaceStore",
         "deploy": "https://retro-place-store.vercel.app/"
       },
-      "project-02": {
-        "id": 2,
+      "project-03": {
+        "id": 3,
         "img": "https://i.ibb.co/3hBSSRq/Movie-Search.jpg",
         "title": "MovieSearch!",
         "type": "Movies Web App",
@@ -48,8 +58,8 @@
         "github": "https://github.com/escuderoemanuel/MovieSearch",
         "deploy": "https://emanuel-moviesearch.netlify.app/"
       },
-      "project-03": {
-        "id": 2,
+      "project-04": {
+        "id": 4,
         "img": "https://i.ibb.co/LNMzZ1X/Weather-App.jpg",
         "title": "Weather App",
         "type": "Weather Web App",
@@ -57,8 +67,17 @@
         "github": "https://github.com/escuderoemanuel/WeatherApp",
         "deploy": "https://emanuel-weatherapp.netlify.app/"
       },
-      "project-04": {
-        "id": 2,
+      "project-05": {
+        "id": 5,
+        "img": "https://i.ibb.co/TkCQBc1/Project-Poster.jpg",
+        "title": "TaTeTi Multiplayer",
+        "type": "Online Game",
+        "tools": "ReactJS, HTML, CSS, JavaScrit, Git, Netflify...",
+        "github": "https://github.com/escuderoemanuel/TatetiVsMachine",
+        "deploy": "https://tateti-vs-machine.netlify.app/"
+      },
+      "project-06": {
+        "id": 6,
         "img": "https://i.ibb.co/dprm1cR/kprem.jpg",
         "title": "KPREM Arte Gráfico",
         "type": "Online store",
@@ -66,8 +85,8 @@
         "github": "https://github.com/escuderoemanuel/KPREM-ArteGrafico",
         "deploy": "https://escuderoemanuel.github.io/KPREM-ArteGrafico/"
       },
-      "project-05": {
-        "id": 3,
+      "project-07": {
+        "id": 7,
         "img": "https://i.ibb.co/f0fGVQH/mahoarcaoltra.jpg",
         "title": "Maho Arca Oltra",
         "type": "Personal website",
@@ -75,8 +94,8 @@
         "github": "https://github.com/escuderoemanuel/MahoArcaOltra",
         "deploy": "https://escuderoemanuel.github.io/MahoArcaOltra/"
       },
-      "project-06": {
-        "id": 4,
+      "project-08": {
+        "id": 8,
         "img": "https://i.ibb.co/xsSBk8f/edguitars2.jpg",
         "title": "ED Guitars",
         "type": "Website about guitars",
@@ -84,8 +103,8 @@
         "github": "https://github.com/escuderoemanuel/EDGuitars",
         "deploy": "https://escuderoemanuel.github.io/EDGuitars/"
       },
-      "project-07": {
-        "id": 5,
+      "project-09": {
+        "id": 9,
         "img": "https://i.ibb.co/5G9SXBW/florescastillo.jpg",
         "title": "F&C Accounting",
         "type": "Personal website",
@@ -93,8 +112,8 @@
         "github": "https://github.com/escuderoemanuel/FC-AsesorasContables",
         "deploy": "https://escuderoemanuel.github.io/FC-AsesorasContables/"
       },
-      "project-08": {
-        "id": 6,
+      "project-10": {
+        "id": 10,
         "img": "https://i.ibb.co/MhKbnn6/portfolio-AP.jpg",
         "title": "Editable Portfolio",
         "type": "Argentina Programa Project",
@@ -172,6 +191,36 @@
         "id": 13,
         "title": "Spring Boot",
         "img": "https://i.ibb.co/JH1kwQB/springboot.png"
+      },
+      "skill-14": {
+        "id": 14,
+        "title": "NodeJS",
+        "img": "https://i.ibb.co/jZt5prG/node-js-icon-454x512-nztofx17.png"
+      },
+      "skill-15": {
+        "id": 15,
+        "title": "ExpressJS",
+        "img": "https://i.ibb.co/bvj9vCw/expressjs.png"
+      },
+      "skill-16": {
+        "id": 16,
+        "title": "MongoDB",
+        "img": "https://i.ibb.co/93fzwbv/db.png"
+      },
+      "skill-17": {
+        "id": 17,
+        "title": "Handlebars",
+        "img": "https://i.ibb.co/M6j18FH/handlebars-js.png"
+      },
+      "skill-18": {
+        "id": 18,
+        "title": "Android Studio",
+        "img": "https://i.ibb.co/NL8wDDB/android-studio-icon.png"
+      },
+      "skill-19": {
+        "id": 19,
+        "title": "Figma",
+        "img": "https://i.ibb.co/qDXPPZn/figma.png"
       }
     }
   },
@@ -187,9 +236,9 @@
     }
   },
   "footer": {
-    "paragraph": "[ Developed by Emanuel Escudero ]",
+    "paragraph": "Developed by Emanuel Escudero",
     "img": {
-      "url": "https://i.ibb.co/ZT13Snc/Logo2023.png",
+      "url": "https://i.ibb.co/Gxk0ktL/Logo2024.png",
       "alt": "Developer Logo"
     }
   }

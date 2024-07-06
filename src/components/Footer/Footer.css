@@ -29,32 +29,53 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+.footerContainer img {
+  transition: all ease 200ms;
+}
+
+.footerContainer img:hover {
+  transform: rotate(5deg) scale(1.05);
+}
+
 @media screen and (min-width: 768px) {
   .footer {
     max-width: 1280px;
     margin: 4rem auto 0rem;
   }
-}
 
-.luzFooter {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
+  .footerContainer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
 
-.luzFooter::before {
-  content: '';
-  position: absolute;
-  top: 40%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  width: 1px;
-  height: 1px;
-  color: transparent;
-  border-radius: 50%;
-  box-shadow: 0 0 90px 40px rgba(12, 45, 107, 1);
-  background-color: transparent;
+  .footerContainer p {
+    margin: 0;
+  }
+
+
+  .luzFooter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .luzFooter::before {
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 1px;
+    height: 1px;
+    color: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 90px 40px rgba(12, 45, 107, 1);
+    background-color: transparent;
+  }
 }

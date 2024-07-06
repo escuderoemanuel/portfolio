@@ -1,4 +1,3 @@
-import React from 'react';
 import './Contact.css';
 import { useTranslation } from 'react-i18next';
 
@@ -77,7 +76,7 @@ const Contact = () => {
           <input
             type='hidden'
             name='_next'
-            defaultValue='https://emanuelescudero.vercel.app/'
+            defaultValue='https://emanuelescudero.ar'
           />
           <input type='hidden' name='_captcha' defaultValue='false' />
         </form>

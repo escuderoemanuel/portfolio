@@ -29,10 +29,13 @@
   content: '';
   display: block;
   position: relative;
-  bottom: 0px; /* Ajusta la posición vertical del subrayado */
+  bottom: 0px;
+  /* Ajusta la posición vertical del subrayado */
   left: 0px;
-  width: 120%; /* Ajusta la longitud del subrayado */
-  border-bottom: 5px solid var(--text-secondary); /* Ajusta el estilo y color del subrayado */
+  width: 120%;
+  /* Ajusta la longitud del subrayado */
+  border-bottom: 5px solid var(--text-secondary);
+  /* Ajusta el estilo y color del subrayado */
 }
 
 /* CONTAINER */
@@ -92,7 +95,7 @@ li {
 
   .skills-content,
   ul {
-    row-gap: 3rem;
+    row-gap: 1rem;
   }
 }
 
