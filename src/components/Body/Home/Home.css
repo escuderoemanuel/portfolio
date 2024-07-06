@@ -6,6 +6,7 @@
   height: 100%;
   z-index: 999;
 }
+
 /* General */
 .home {
   display: flex;
@@ -83,8 +84,8 @@
   display: block;
   white-space: nowrap;
   border-right: 3px solid var(--text-secondary);
-  width: 18ch;
-  animation: typing-en 6s steps(18) infinite, blink 1s infinite;
+  width: 20ch;
+  animation: typing-en 6s steps(20) infinite, blink 1s infinite;
   overflow: hidden;
 }
 
@@ -106,8 +107,8 @@
   display: block;
   white-space: nowrap;
   border-right: 3px solid var(--text-secondary);
-  width: 22ch;
-  animation: typing-es 6s steps(22) infinite, blink 1s infinite;
+  width: 23ch;
+  animation: typing-es 6s steps(23) infinite, blink 1s infinite;
   overflow: hidden;
 }
 
@@ -119,12 +120,15 @@
   0% {
     width: 0;
   }
+
   25% {
-    width: 18ch;
+    width: 19ch;
   }
+
   80% {
-    width: 18ch;
+    width: 19ch;
   }
+
   100% {
     width: 0;
   }
@@ -141,12 +145,15 @@
   0% {
     width: 0;
   }
+
   25% {
-    width: 22ch;
+    width: 23ch;
   }
+
   80% {
-    width: 22ch;
+    width: 23ch;
   }
+
   100% {
     width: 0;
   }
@@ -199,6 +206,7 @@
 }
 
 @media (min-width: 768px) {
+
   /* General */
   .home {
     align-items: start;
@@ -255,6 +263,7 @@
 }
 
 @media (min-width: 1024px) {
+
   /* General */
   .home {
     padding: 150px 6rem 4rem;
@@ -263,6 +272,7 @@
   .home-content {
     min-width: 55%;
   }
+
   /* Encabezado */
   .title-container {
     align-items: start;
@@ -300,6 +310,7 @@
 }
 
 @media (min-width: 1200px) {
+
   /* General */
   .home {
     padding: 150px 6rem 0;

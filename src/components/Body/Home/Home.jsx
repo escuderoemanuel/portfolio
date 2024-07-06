@@ -41,16 +41,14 @@ const Home = () => {
             </div>
             <div className='text-animate'>
               <h3
-                className={`subtitle-home subtitle-home-en ${
-                  isEnglish ? '' : 'subtitle-home-en-display'
-                }`}>
-                FrontEnd<span>&nbsp;Developer</span>!
+                className={`subtitle-home subtitle-home-en ${isEnglish ? '' : 'subtitle-home-en-display'
+                  }`}>
+                {t('home.subtitle-home.span')}<span>&nbsp;{t('home.subtitle-home.normal')}</span>{t('home.subtitle-home.signo')}
               </h3>
               <h3
-                className={`subtitle-home subtitle-home-es ${
-                  isEnglish ? 'subtitle-home-es-display' : ''
-                }`}>
-                Desarrollador<span>&nbsp;FrontEnd</span>!
+                className={`subtitle-home subtitle-home-es ${isEnglish ? 'subtitle-home-es-display' : ''
+                  }`}>
+                {t('home.subtitle-home.normal')}<span>{t('home.subtitle-home.span')}</span>{t('home.subtitle-home.signo')}
               </h3>
             </div>
           </div>
