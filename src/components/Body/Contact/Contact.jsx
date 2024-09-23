@@ -13,7 +13,7 @@ const Contact = () => {
       <div className='Luz5'></div>
       <div className='contact-content'>
         <form
-          action='https://formsubmit.co/escudero.mdz@gmail.com'
+          action='https://formsubmit.co/emanuelescudero.dev@gmail.com'
           method='POST'>
           {/* Name */}
           <div className='input-box'>
