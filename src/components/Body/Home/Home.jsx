@@ -55,7 +55,7 @@ const Home = () => {
           <p className='description wrap'>{t('home.about')}</p>
           <div className='divSocial'>
             <a
-              href='https://www.linkedin.com/in/emanuelescudero/'
+              href='https://www.linkedin.com/in/emanuelescudero-dev/'
               target='_blank'
               rel='noopener noreferrer'>
               <i className='iSocial bx bxl-linkedin bx-border-circle bx-sm'></i>
