@@ -15,9 +15,9 @@ const DataFile = () => {
         />
       </div>
       <a
-        href='https://drive.google.com/file/d/1ZzN5btgB9pNvdBEOntiG3n1FrHos1xge/view?usp=sharing'
+        href='https://drive.google.com/file/d/1Kgw5nSOBizRSTI1W52JvuuTMM0DFnz6j/view?usp=drive_link'
         target='_blank'
-        download='EmanuelEscuderoFrontendDeveloperCV.pdf'
+        download='EmanuelEscuderoFullStackDeveloperCV.pdf'
         rel='noopener noreferrer'>
         <Btn
           className={'primary not-rounded md btn-content'}

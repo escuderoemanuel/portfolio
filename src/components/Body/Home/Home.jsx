@@ -41,23 +41,21 @@ const Home = () => {
             </div>
             <div className='text-animate'>
               <h3
-                className={`subtitle-home subtitle-home-en ${
-                  isEnglish ? '' : 'subtitle-home-en-display'
-                }`}>
-                FrontEnd<span>&nbsp;Developer</span>!
+                className={`subtitle-home subtitle-home-en ${isEnglish ? '' : 'subtitle-home-en-display'
+                  }`}>
+                {t('home.subtitle-home.span')}<span>&nbsp;{t('home.subtitle-home.normal')}</span>{t('home.subtitle-home.signo')}
               </h3>
               <h3
-                className={`subtitle-home subtitle-home-es ${
-                  isEnglish ? 'subtitle-home-es-display' : ''
-                }`}>
-                Desarrollador<span>&nbsp;FrontEnd</span>!
+                className={`subtitle-home subtitle-home-es ${isEnglish ? 'subtitle-home-es-display' : ''
+                  }`}>
+                {t('home.subtitle-home.span')}<span>&nbsp;{t('home.subtitle-home.normal')}</span>{t('home.subtitle-home.signo')}
               </h3>
             </div>
           </div>
           <p className='description wrap'>{t('home.about')}</p>
           <div className='divSocial'>
             <a
-              href='https://www.linkedin.com/in/emanuelescudero/'
+              href='https://www.linkedin.com/in/emanuelescudero-dev/'
               target='_blank'
               rel='noopener noreferrer'>
               <i className='iSocial bx bxl-linkedin bx-border-circle bx-sm'></i>
