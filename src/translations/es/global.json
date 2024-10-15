@@ -155,6 +155,12 @@
         "id": 4,
         "title": "Bootstrap",
         "img": "https://i.ibb.co/TmwQPdB/bootstrap.png"
+      }
+      ,
+      "skill-20": {
+        "id": 20,
+        "title": "Tailwind",
+        "img": "https://i.ibb.co/3Bwb5BH/tw.png"
       },
       "skill-05": {
         "id": 5,

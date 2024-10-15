@@ -26,10 +26,13 @@
   content: '';
   display: block;
   position: relative;
-  bottom: 0px; /* Ajusta la posición vertical del subrayado */
+  bottom: 0px;
+  /* Ajusta la posición vertical del subrayado */
   left: 0px;
-  width: 110%; /* Ajusta la longitud del subrayado */
-  border-bottom: 5px solid var(--text-bright); /* Ajusta el estilo y color del subrayado */
+  width: 110%;
+  /* Ajusta la longitud del subrayado */
+  border-bottom: 5px solid var(--text-secondary);
+  /* Ajusta el estilo y color del subrayado */
 }
 
 .titleContact span {
@@ -205,6 +208,7 @@ textarea {
     font-size: 1.2em;
   }
 }
+
 /* LUCES */
 
 .Luz5 {
